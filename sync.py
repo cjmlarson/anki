@@ -16,25 +16,10 @@ MODEL_NAME = "German Vocab"
 
 MODEL_CSS = """\
 .card { font-family: arial; font-size: 20px; text-align: center; color: black; background-color: white; }
-.example { margin-top: 1em; font-size: 0.85em; color: #555; font-style: italic; }
+.word { font-size: 1.2em; font-weight: bold; }
+.example { margin-top: 0.8em; font-size: 0.85em; color: #555; font-style: italic; }
 .grammar { margin-top: 0.5em; font-size: 0.8em; color: #888; }
 """
-
-CARD1_QFMT = "{{German}}"
-CARD1_AFMT = """\
-{{FrontSide}}
-<hr id=answer>
-{{English}}
-{{#ExampleDE}}<div class="example">\u201e{{ExampleDE}}\u201c<br>{{ExampleEN}}</div>{{/ExampleDE}}
-{{#Grammar}}<div class="grammar">{{Grammar}}</div>{{/Grammar}}"""
-
-CARD2_QFMT = "{{English}}"
-CARD2_AFMT = """\
-{{FrontSide}}
-<hr id=answer>
-{{German}}
-{{#ExampleDE}}<div class="example">\u201e{{ExampleDE}}\u201c<br>{{ExampleEN}}</div>{{/ExampleDE}}
-{{#Grammar}}<div class="grammar">{{Grammar}}</div>{{/Grammar}}"""
 
 
 def load_auth() -> SyncAuth | None:
@@ -75,41 +60,62 @@ def get_auth(col: Collection) -> SyncAuth:
     return auth
 
 
+def build_field(word: str, example: str | None, grammar: str | None) -> str:
+    """Build a field value: word + optional example + optional grammar."""
+    html = f'<div class="word">{word}</div>'
+    if example:
+        html += f'<div class="example">{example}</div>'
+    if grammar:
+        html += f'<div class="grammar">{grammar}</div>'
+    return html
+
+
 def get_or_create_model(col: Collection):
-    """Get existing 'German Vocab' model, or create it."""
+    """Get existing 'German Vocab' model, or create it. Recreates if field count changed."""
     model = col.models.by_name(MODEL_NAME)
     if model:
-        return model
+        field_names = [f["name"] for f in model["flds"]]
+        if field_names == ["Deutsche", "English"]:
+            return model
+        # Model exists with wrong fields — remove all its notes and the model itself
+        nids = col.find_notes(f'"note:{MODEL_NAME}"')
+        if nids:
+            col.remove_notes(nids)
+            print(f"Removed {len(nids)} notes from old '{MODEL_NAME}' model.")
+        col.models.remove(model["id"])
+        print(f"Removed old '{MODEL_NAME}' model (had fields: {field_names}).")
 
     m = col.models.new(MODEL_NAME)
     m["css"] = MODEL_CSS
-    for name in ["German", "English", "ExampleDE", "ExampleEN", "Grammar"]:
+    for name in ["Deutsche", "English"]:
         col.models.add_field(m, col.models.new_field(name))
 
     t1 = col.models.new_template("Card 1")
-    t1["qfmt"] = CARD1_QFMT
-    t1["afmt"] = CARD1_AFMT
+    t1["qfmt"] = "{{Deutsche}}"
+    t1["afmt"] = "{{FrontSide}}<hr id=answer>{{English}}"
     col.models.add_template(m, t1)
 
     t2 = col.models.new_template("Card 2")
-    t2["qfmt"] = CARD2_QFMT
-    t2["afmt"] = CARD2_AFMT
+    t2["qfmt"] = "{{English}}"
+    t2["afmt"] = "{{FrontSide}}<hr id=answer>{{Deutsche}}"
     col.models.add_template(m, t2)
 
     col.models.add(m)
-    print(f"Created note model '{MODEL_NAME}' with 5 fields and 2 templates.")
+    print(f"Created note model '{MODEL_NAME}' with 2 fields and 2 templates.")
     return col.models.by_name(MODEL_NAME)
 
 
 def remove_old_model_notes(col: Collection) -> int:
-    """Remove all notes using the old 'Basic (and reversed card)' model in our deck."""
-    old_model = col.models.by_name("Basic (and reversed card)")
-    if not old_model:
-        return 0
-    nids = col.find_notes(f'"deck:{DECK_NAME}" "note:Basic (and reversed card)"')
-    if nids:
-        col.remove_notes(nids)
-    return len(nids)
+    """Remove all notes using old models in our deck."""
+    removed = 0
+    for old_name in ["Basic (and reversed card)"]:
+        if not col.models.by_name(old_name):
+            continue
+        nids = col.find_notes(f'"deck:{DECK_NAME}" "note:{old_name}"')
+        if nids:
+            col.remove_notes(nids)
+            removed += len(nids)
+    return removed
 
 
 def sync_cards(col: Collection) -> None:
@@ -122,40 +128,29 @@ def sync_cards(col: Collection) -> None:
     if removed_old:
         print(f"Removed {removed_old} old 'Basic (and reversed card)' notes.")
 
-    # Fetch all existing notes in the deck (keyed on German field)
-    existing_by_german: dict[str, int] = {}
+    # Fetch all existing notes in the deck (keyed on raw word from Deutsche field)
+    existing_by_word: dict[str, int] = {}
     for nid in col.find_notes(f'"deck:{DECK_NAME}"'):
         note = col.get_note(nid)
-        existing_by_german[note["German"]] = nid
+        existing_by_word[note["Deutsche"]] = nid
 
-    vocab_germans = set()
+    vocab_de_fields = set()
     added = 0
     updated = 0
     for card in CARDS:
-        german = card["front"]
-        english = card["back"]
-        ex = card.get("example", {})
-        example_de = ex.get("de", "")
-        example_en = ex.get("en", "")
-        grammar = card.get("grammar", "")
+        ex = card.get("example")
+        grammar = card.get("grammar")
+        de_field = build_field(card["front"], ex["de"] if ex else None, grammar)
+        en_field = build_field(card["back"], ex["en"] if ex else None, None)
         tags = card.get("tags", [])
-        vocab_germans.add(german)
+        vocab_de_fields.add(de_field)
 
-        fields = {
-            "German": german,
-            "English": english,
-            "ExampleDE": example_de,
-            "ExampleEN": example_en,
-            "Grammar": grammar,
-        }
-
-        if german in existing_by_german:
-            note = col.get_note(existing_by_german[german])
+        if de_field in existing_by_word:
+            note = col.get_note(existing_by_word[de_field])
             changed = False
-            for key, val in fields.items():
-                if note[key] != val:
-                    note[key] = val
-                    changed = True
+            if note["English"] != en_field:
+                note["English"] = en_field
+                changed = True
             if set(note.tags) != set(tags):
                 note.tags = tags
                 changed = True
@@ -164,16 +159,16 @@ def sync_cards(col: Collection) -> None:
                 updated += 1
         else:
             note = col.new_note(model)
-            for key, val in fields.items():
-                note[key] = val
+            note["Deutsche"] = de_field
+            note["English"] = en_field
             note.tags = tags
             col.add_note(note, deck_id)
             added += 1
 
     # Remove cards no longer in vocab.py
     nids_to_remove = [
-        nid for german, nid in existing_by_german.items()
-        if german not in vocab_germans
+        nid for de, nid in existing_by_word.items()
+        if de not in vocab_de_fields
     ]
     if nids_to_remove:
         col.remove_notes(nids_to_remove)
