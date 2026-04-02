@@ -201,8 +201,10 @@ def export_reviews(col: Collection) -> None:
     rows = []
     for nid in col.find_notes(f'"deck:{DECK_NAME}"'):
         note = col.get_note(nid)
-        de_word = strip_html(note["Deutsche"])
-        en_word = strip_html(note["English"])
+        de_match = WORD_DIV_RE.search(note["Deutsche"])
+        de_word = de_match.group(1) if de_match else strip_html(note["Deutsche"])
+        en_match = WORD_DIV_RE.search(note["English"])
+        en_word = en_match.group(1) if en_match else strip_html(note["English"])
         for card in note.cards():
             direction = "DE→EN" if card.ord == 0 else "EN→DE"
             ease = round(card.factor / 1000, 2) if card.factor else 0
