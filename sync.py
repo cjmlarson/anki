@@ -1,29 +1,38 @@
-"""Sync vocab.py cards to AnkiWeb."""
+"""Sync vocab.csv cards to AnkiWeb, then export review progress."""
 
+import csv
 import getpass
 import json
 import os
+import re
 
 from anki.collection import Collection
 from anki.sync_pb2 import SyncAuth, SyncCollectionResponse
-
-from vocab import CARDS
 
 COLLECTION_PATH = os.path.expanduser("~/.local/share/anki-decks/collection.anki2")
 AUTH_PATH = os.path.expanduser("~/.local/share/anki-decks/auth.json")
 DECK_NAME = "German Vocab"
 MODEL_NAME = "German Vocab"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 MODEL_CSS = """\
 .card { font-family: arial; font-size: 20px; text-align: center; color: black; background-color: white; }
 .word { font-size: 1.2em; font-weight: bold; }
 .example { margin-top: 0.8em; font-size: 0.85em; color: #555; font-style: italic; }
-.grammar { margin-top: 0.5em; font-size: 0.8em; color: #888; }
 """
 
 
+def load_vocab() -> list[dict]:
+    """Read vocab.csv and return list of card dicts."""
+    path = os.path.join(BASE_DIR, "vocab.csv")
+    cards = []
+    with open(path, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            cards.append(row)
+    return cards
+
+
 def load_auth() -> SyncAuth | None:
-    """Load cached auth token, or return None if not cached."""
     if not os.path.exists(AUTH_PATH):
         return None
     with open(AUTH_PATH) as f:
@@ -36,7 +45,6 @@ def load_auth() -> SyncAuth | None:
 
 
 def save_auth(auth: SyncAuth) -> None:
-    """Persist auth token and endpoint to disk."""
     os.makedirs(os.path.dirname(AUTH_PATH), exist_ok=True)
     with open(AUTH_PATH, "w") as f:
         json.dump({
@@ -46,11 +54,9 @@ def save_auth(auth: SyncAuth) -> None:
 
 
 def get_auth(col: Collection) -> SyncAuth:
-    """Get SyncAuth, prompting for credentials on first run."""
     auth = load_auth()
     if auth:
         return auth
-
     print("AnkiWeb login required (credentials are not stored, only the session token).")
     username = input("AnkiWeb username (email): ")
     password = getpass.getpass("AnkiWeb password: ")
@@ -60,24 +66,24 @@ def get_auth(col: Collection) -> SyncAuth:
     return auth
 
 
-def build_field(word: str, example: str | None, grammar: str | None) -> str:
-    """Build a field value: word + optional example + optional grammar."""
+def build_field(word: str, example: str | None) -> str:
+    """Build a field value: word + optional example."""
     html = f'<div class="word">{word}</div>'
     if example:
         html += f'<div class="example">{example}</div>'
-    if grammar:
-        html += f'<div class="grammar">{grammar}</div>'
     return html
 
 
+def strip_html(s: str) -> str:
+    return re.sub(r"<[^>]+>", "", s).strip()
+
+
 def get_or_create_model(col: Collection):
-    """Get existing 'German Vocab' model, or create it. Recreates if field count changed."""
     model = col.models.by_name(MODEL_NAME)
     if model:
         field_names = [f["name"] for f in model["flds"]]
         if field_names == ["Deutsche", "English"]:
             return model
-        # Model exists with wrong fields — remove all its notes and the model itself
         nids = col.find_notes(f'"note:{MODEL_NAME}"')
         if nids:
             col.remove_notes(nids)
@@ -106,7 +112,6 @@ def get_or_create_model(col: Collection):
 
 
 def remove_old_model_notes(col: Collection) -> int:
-    """Remove all notes using old models in our deck."""
     removed = 0
     for old_name in ["Basic (and reversed card)"]:
         if not col.models.by_name(old_name):
@@ -119,16 +124,15 @@ def remove_old_model_notes(col: Collection) -> int:
 
 
 def sync_cards(col: Collection) -> None:
-    """Add/update/remove cards to match vocab.py."""
+    """Add/update/remove cards to match vocab.csv."""
+    cards = load_vocab()
     deck_id = col.decks.add_normal_deck_with_name(DECK_NAME).id
     model = get_or_create_model(col)
 
-    # Remove old-model notes on first migration
     removed_old = remove_old_model_notes(col)
     if removed_old:
         print(f"Removed {removed_old} old 'Basic (and reversed card)' notes.")
 
-    # Fetch all existing notes in the deck (keyed on raw word from Deutsche field)
     existing_by_word: dict[str, int] = {}
     for nid in col.find_notes(f'"deck:{DECK_NAME}"'):
         note = col.get_note(nid)
@@ -137,12 +141,12 @@ def sync_cards(col: Collection) -> None:
     vocab_de_fields = set()
     added = 0
     updated = 0
-    for card in CARDS:
-        ex = card.get("example")
-        grammar = card.get("grammar")
-        de_field = build_field(card["front"], ex["de"] if ex else None, grammar)
-        en_field = build_field(card["back"], ex["en"] if ex else None, None)
-        tags = card.get("tags", [])
+    for card in cards:
+        de_ex = card["example_de"] or None
+        en_ex = card["example_en"] or None
+        de_field = build_field(card["deutsche"], de_ex)
+        en_field = build_field(card["english"], en_ex)
+        tags = card["tags"].split() if card["tags"] else []
         vocab_de_fields.add(de_field)
 
         if de_field in existing_by_word:
@@ -165,7 +169,6 @@ def sync_cards(col: Collection) -> None:
             col.add_note(note, deck_id)
             added += 1
 
-    # Remove cards no longer in vocab.py
     nids_to_remove = [
         nid for de, nid in existing_by_word.items()
         if de not in vocab_de_fields
@@ -174,11 +177,54 @@ def sync_cards(col: Collection) -> None:
         col.remove_notes(nids_to_remove)
 
     removed = len(nids_to_remove)
-    print(f"Cards: {added} added, {updated} updated, {removed} removed, {len(CARDS)} total in vocab.py")
+    print(f"Cards: {added} added, {updated} updated, {removed} removed, {len(cards)} total in vocab.csv")
+
+
+def export_reviews(col: Collection) -> None:
+    """Export review progress from the collection to reviews.csv."""
+    rows = []
+    for nid in col.find_notes(f'"deck:{DECK_NAME}"'):
+        note = col.get_note(nid)
+        de_word = strip_html(note["Deutsche"])
+        en_word = strip_html(note["English"])
+        for card in note.cards():
+            direction = "DE→EN" if card.ord == 0 else "EN→DE"
+            ease = round(card.factor / 1000, 2) if card.factor else 0
+            rows.append([
+                de_word, en_word, direction,
+                card.ivl, ease, card.due,
+                card.reps, card.lapses, card.type, card.queue,
+            ])
+
+    rows.sort(key=lambda r: (r[0].lower(), r[2]))
+    path = os.path.join(BASE_DIR, "reviews.csv")
+    with open(path, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f)
+        w.writerow(["deutsche", "english", "direction", "interval_days", "ease",
+                     "due", "reviews", "lapses", "type", "queue"])
+        w.writerows(rows)
+    print(f"Exported {len(rows)} card reviews to reviews.csv")
+
+
+def export_deck_json() -> None:
+    """Write deck.json with model metadata."""
+    deck = {
+        "name": DECK_NAME,
+        "model": MODEL_NAME,
+        "fields": ["Deutsche", "English"],
+        "templates": [
+            {"name": "Card 1", "qfmt": "{{Deutsche}}", "afmt": "{{FrontSide}}<hr id=answer>{{English}}"},
+            {"name": "Card 2", "qfmt": "{{English}}", "afmt": "{{FrontSide}}<hr id=answer>{{Deutsche}}"},
+        ],
+        "css": MODEL_CSS,
+    }
+    path = os.path.join(BASE_DIR, "deck.json")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(deck, f, indent=2)
+    print("Exported deck.json")
 
 
 def do_sync(col: Collection, auth: SyncAuth) -> None:
-    """Sync collection with AnkiWeb."""
     print("Syncing with AnkiWeb...")
     result = col.sync_collection(auth=auth, sync_media=False)
 
@@ -194,7 +240,6 @@ def do_sync(col: Collection, auth: SyncAuth) -> None:
         SyncCollectionResponse.FULL_SYNC,
         SyncCollectionResponse.FULL_UPLOAD,
     ):
-        # FULL_SYNC on a fresh collection defaults to upload
         print("Full upload required — uploading local collection to AnkiWeb...")
         col.close_for_full_sync()
         col.full_upload_or_download(auth=auth, server_usn=None, upload=True)
@@ -216,12 +261,14 @@ def main():
     try:
         auth = get_auth(col)
         sync_cards(col)
+        export_reviews(col)
+        export_deck_json()
         do_sync(col, auth)
     finally:
         try:
             col.close()
         except Exception:
-            pass  # may already be closed after full_upload_or_download
+            pass
 
 
 if __name__ == "__main__":
