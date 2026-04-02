@@ -425,3 +425,77 @@ die Erfrischungspause,"refreshment break","Nach kurzer *Erfrischungspause* brach
 bestens,"very well, excellently, at best","Monte Rosa war *bestens* zu sehen.","Monte Rosa could be seen *very well*.",Superlative of gut,adverb
 der Gipfelgrat,"summit ridge","Problemlos auf den breiten *Gipfelgrat*.","Easily up to the broad *summit ridge*.",Compound: Gipfel + Grat,noun compound alpine sustenhorn
 "die Aufstiegsspur, -en","ascent track, skin track","Entlang der *Aufstiegsspuren* abgefahren.","Descended along the *ascent tracks*.",Compound: Aufstieg + Spur,noun compound alpine
+sein,"to be","Um 14.30 Uhr *sind* wir unten im Tal.","At 14:30 we *are* down in the valley.","Irregular: bin, bist, ist, sind, seid, sind. Past: war, gewesen",verb irregular
+haben,"to have, to possess","*Hatten* tiefen Powder bis hinunter nach Riemenstalden.","*Had* deep powder all the way down to Riemenstalden.","Irregular: habe, hast, hat. Past: hatte, gehabt",verb irregular
+werden,"to become, to get","Dann *wird* es etwas enger.","Then it *gets* somewhat narrower.","Irregular: wurde, ist geworden. Also auxiliary for passive/future",verb irregular
+müssen,"must, to have to","Der beste Durchschlupf *muss* gesucht werden.","The best passage *must* be found.","Modal verb: muss, musst, muss, müssen",verb irregular modal
+wollen,"to want","*Wollten* eigentlich direkt auf den Hagelstock.","*Wanted* to go directly to the Hagelstock.","Modal verb: will, willst, will, wollen. Past: wollte",verb irregular modal
+machen,"to make, to do","Die am meisten *gemachte* Skitour im Gebiet.","The most frequently *done* ski tour in the area.","Regular. Past participle: gemacht",verb
+fahren,"to drive, to go (by vehicle)","Die Bahn *fährt* ab 06.00 Uhr morgens.","The cable car *runs* from 06:00 in the morning.","Irregular: fährt, fuhr, ist gefahren",verb irregular
+bringen,"to bring, to take","Den Gipfelhang schnell unter uns *gebracht*.","Quickly got the summit slope behind (*brought* under) us.","Irregular: brachte, hat gebracht",verb irregular
+suchen,"to search, to look for","Der beste Durchschlupf muss *gesucht* werden.","The best passage must be *found* (lit. *searched* for).",,verb
+folgen,"to follow","Den Spuren *folgend* ohne Probleme bis auf den Gipfel.","*Following* the tracks without problems to the summit.",+ dative: er folgt dem Weg,verb
+entscheiden,"to decide","Wir *entschieden* uns kurzerhand für den Spilauerstock.","We *decided* on the spot to go for the Spilauerstock.","Irregular: entschied, hat entschieden. Reflexive: sich entscheiden",verb irregular
+aufstehen,"to get up, to stand up","Am Wochenende lohnt es sich früh *aufzustehen*.","On weekends it's worth *getting up* early.","Separable: er steht auf. Irregular: stand auf, ist aufgestanden",verb irregular separable
+spuren,"to break trail, to make tracks","Kurz auf den Spilauerstock hinauf*spuren*.","Quickly *break trail* up to the Spilauerstock.",Ski touring term: to be first up a slope and create tracks,verb alpine
+anfellen,"to put on climbing skins","Hinunter zum Schmalstöckli und *anfellen*.","Down to the Schmalstöckli and *put on skins*.",Separable: er fellt an. From: das Fell (climbing skin),verb separable alpine
+traversieren,"to traverse, to cross","In NE-Richtung zum Schnüerstock *traversieren*.","*Traverse* in a NE direction to the Schnüerstock.",,verb alpine
+empfehlen,"to recommend","Eine *empfohlene* Abfahrtsvariante nach Chäppeliberg.","A *recommended* descent variant to Chäppeliberg.","Irregular: empfiehlt, empfahl, hat empfohlen",verb irregular
+ausführen,"to carry out, to execute","Sehr oft *ausgeführte* lohnende Skitour.","Very often *undertaken* rewarding ski tour.",Separable: er führt aus,verb separable
+ab,"from, starting from, as of","Die Bahn fährt *ab* 06.00 Uhr morgens.","The cable car runs *from* 06:00 in the morning.",Preposition + dative. Also separable verb prefix,preposition
+also,"so, therefore, well then","*Also* alles dem Grat entlang in östlicher Richtung.","*So* everything along the ridge in an easterly direction.",,conjunction
+alles,"everything, all of it","Also *alles* dem Grat entlang.","So *everything* along the ridge.",,pronoun
+es,"it","Am Wochenende lohnt *es* sich früh aufzustehen.","On weekends *it* is worth getting up early.",,pronoun
+jedoch,"however, yet, but","Wollten direkt auf den Hagelstock *jedoch* entschieden wir uns für den Spilauerstock.","Wanted to go to the Hagelstock *however* we decided on the Spilauerstock.",,conjunction
+ohne,"without","Den Spuren folgend *ohne* Probleme bis auf den Gipfel.","Following the tracks *without* problems to the summit.",Preposition + accusative,preposition
+unter,"under, below, beneath","Den Gipfelhang schnell *unter* uns gebracht.","Quickly got the summit slope *below* us.",Preposition + accusative/dative,preposition
+unten,"below, at the bottom, down","Um 14.30 Uhr sind wir *unten* im Tal.","At 14:30 we are *down* in the valley.",,adverb
+zwischen,"between, among","Der beste Durchschlupf *zwischen* den Felsen.","The best passage *between* the rocks.",Preposition + dative,preposition
+hinauf,"up, upward","Kurz auf den Spilauerstock *hinauf*spuren.","Quickly break trail *up* to the Spilauerstock.",Opposite: hinunter,adverb
+morgens,"in the morning","Die Bahn fährt ab 06.00 Uhr *morgens*.","The cable car runs from 06:00 *in the morning*.",,adverb
+letzte,"last, final","Die *letzten* Meter dann zu Fuss.","The *last* meters then on foot.",,adjective
+einige,"some, a few, several","Mit *einigen* schweisstreibenden Kehren.","With *some* sweat-inducing switchbacks.",,pronoun
+östlich,"eastern, easterly","In *östlicher* Richtung bis an den Gipfelhang.","In an *easterly* direction to the summit slope.",Opposite: westlich,adjective
+pulvrig,"powdery (snow)","Nun *pulvrige* Abfahrt hinunter zum See.","Now a *powdery* descent down to the lake.",From: der Pulver (powder),adjective alpine
+kurzerhand,"on the spot, without hesitation","Wir entschieden uns *kurzerhand* für den Spilauerstock.","We decided *on the spot* to go for the Spilauerstock.",,adverb
+schweisstreibend,"sweat-inducing, strenuous","Mit einigen *schweisstreibenden* Kehren zum Gipfel.","With some *sweat-inducing* switchbacks to the summit.",Compound: Schweiss + treibend,adjective compound alpine
+prächtig,"magnificent, splendid, gorgeous","*Prächtige* Aussicht auf die W-Wand.","A *magnificent* view of the west wall.",,adjective
+eng,"narrow, tight","Dann wird es etwas *enger*.","Then it gets somewhat *narrower*.",,adjective
+toll,"great, awesome, fantastic","Immer noch *tolle* Abfahrt inklusive Schanzegumpe!","Still a *great* descent including jump bumps!",,adjective
+ausgiebig,"extensive, thorough, hearty","Eine *ausgiebige* Pause im Gasthof.","A *hearty* break at the inn.",,adjective
+tief,"deep, low","*Tiefen* Powder bis hinunter nach Riemenstalden.","*Deep* powder all the way down to Riemenstalden.",,adjective
+genussvoll,"enjoyable, delightful","Nun *genussvolle* Abfahrt über weite Hänge.","Now a *delightful* descent over wide slopes.",From: der Genuss (enjoyment),adjective
+weit,"wide, vast, far","Abfahrt über *weite* offene Hänge.","Descent over *wide* open slopes.",,adjective
+inklusive,"including, inclusive of","Tolle Abfahrt *inklusive* Schanzegumpe!","Great descent *including* jump bumps!",Abbreviation: inkl.,preposition
+"die Seilbahn, -en","cable car, aerial tramway","Mit der *Seilbahn* von Chäppeliberg nach Gitschen.","By *cable car* from Chäppeliberg to Gitschen.",Compound: Seil + Bahn,noun compound alpine
+"die Bahn, -en","railway, cable car, train","Die *Bahn* fährt ab 06.00 Uhr morgens.","The *cable car* runs from 06:00 in the morning.",,noun
+"der Morgen, -","morning","Am Wochenende lohnt es sich früh am *Morgen* aufzustehen.","On weekends it's worth getting up early in the *morning*.",morgens = in the morning,noun
+"das Wochenende, -n","weekend","Am *Wochenende* lohnt es sich früh aufzustehen.","On *weekends* it's worth getting up early.",Compound: Woche + Ende,noun compound
+"die Woche, -n","week","Am *Wochen*ende lohnt es sich früh aufzustehen.","On *week*ends it's worth getting up early.",,noun
+"das Gebiet, -e","area, region, territory","Die am meisten gemachte Skitour im *Gebiet*.","The most frequently done ski tour in the *area*.",,noun
+"das Problem, -e","problem, issue","Den Spuren folgend ohne *Probleme* bis auf den Gipfel.","Following the tracks without *problems* to the summit.",,noun
+"die Kehre, -n","switchback, hairpin turn","Mit einigen schweisstreibenden *Kehren* zum Gipfel.","With some sweat-inducing *switchbacks* to the summit.",,noun alpine
+"das Kreuz, -e","cross","Die letzten Meter zu Fuss bis zum Gipfel*kreuz*.","The last meters on foot to the summit *cross*.",,noun
+"das Gipfelkreuz, -e","summit cross","Die letzten Meter zu Fuss bis zum *Gipfelkreuz*.","The last meters on foot to the *summit cross*.",Compound: Gipfel + Kreuz,noun compound alpine
+"die Aussicht, -en","view, outlook, prospect","*Prächtige* Aussicht auf die W-Wand.","Magnificent *view* of the west wall.",,noun
+"die Masse, -n","mass, crowd","Die *Massen* auf dem Gipfel.","The *crowds* at the summit.",,noun
+"der Gipfelhang, Gipfelhänge","summit slope","Vor allem der steile *Gipfelhang* hat gerockt!","Especially the steep *summit slope* was awesome!",Compound: Gipfel + Hang,noun compound alpine
+"der Durchschlupf, Durchschlüpfe","gap, passage, way through","Der beste *Durchschlupf* zwischen den Felsen.","The best *passage* between the rocks.",,noun alpine
+"der Wald, Wälder","forest, woods","Via Färnen*wald* zurück nach Chäppeliberg.","Via Färnen *forest* back to Chäppeliberg.",,noun
+"das Holz, Hölzer","wood, timber","Via Färnenwald (*Holz*hackerei) zurück.","Via Färnenwald (*wood*cutting) back.",,noun
+"das Pferd, -e","horse","Via Cher (*Pferde*stall) zurück nach Chäppeliberg.","Via Cher (*horse* stable) back to Chäppeliberg.",,noun
+"der Stall, Ställe","stable, barn","Via Cher (Pferde*stall*) zurück nach Chäppeliberg.","Via Cher (horse *stable*) back to Chäppeliberg.",,noun
+"der Pferdestall, Pferdeställe","horse stable","Via Cher (*Pferdestall*) zurück nach Chäppeliberg.","Via Cher (*horse stable*) back to Chäppeliberg.",Compound: Pferd + Stall,noun compound
+"der Gasthof, Gasthöfe","inn, guesthouse","Eine ausgiebige Pause im *Gasthof* in Riemenstalden.","A hearty break at the *inn* in Riemenstalden.",,noun
+"die Variante, -n","variant, alternative","Eine empfohlene Abfahrts*variante* nach Chäppeliberg.","A recommended descent *variant* to Chäppeliberg.",,noun
+"die Abfahrtsvariante, -n","descent variant, alternative descent","Eine empfohlene *Abfahrtsvariante* nach Chäppeliberg.","A recommended *descent variant* to Chäppeliberg.",Compound: Abfahrt + Variante,noun compound alpine
+"die Seite, -n","side, page","Zum Schnüerstock (E-*Seite*) traversieren.","Traverse to the Schnüerstock (E *side*).",,noun
+"der Genuss, Genüsse","enjoyment, pleasure, treat","Nun *genuss*volle Abfahrt über weite Hänge.","Now an *enjoyable* descent over wide slopes.",,noun
+"die Kombination, -en","combination","Besonders in *Kombination* mit dem Spilauerstock.","Especially in *combination* with the Spilauerstock.",,noun
+"die Schwierigkeit, -en","difficulty, problem","Lohnende Skitour ohne *Schwierigkeiten*.","Rewarding ski tour without *difficulties*.",,noun
+"der Schweiss","sweat, perspiration","Mit einigen *schweiss*treibenden Kehren zum Gipfel.","With some *sweat*-inducing switchbacks to the summit.",,noun
+"die Mode, -n","fashion, trend","Der Rossstock — die *Mode*tour schlechthin.","The Rossstock — the *trendy* tour par excellence.",,noun
+"die Modetour, -en","trendy tour, fashionable tour","Der Rossstock — die *Modetour* schlechthin.","The Rossstock — *the* trendy *tour* par excellence.",Compound: Mode + Tour,noun compound
+"die Schanze, -n","jump, ski jump","Tolle Abfahrt inklusive *Schanze*gumpe!","Great descent including *jump* bumps!",,noun alpine
+"der Felsen, -","rock, rock face, cliff","Der beste Durchschlupf zwischen den *Felsen*.","The best passage between the *rocks*.",Similar to der Fels but used more for individual rock formations,noun alpine
+flacher,"flatter (comparative)","Dann leider etwas *flacher* zurück nach Chäppeliberg.","Then unfortunately somewhat *flatter* back to Chäppeliberg.",Comparative of flach,adjective
