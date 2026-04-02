@@ -47,7 +47,7 @@ der Verkehr,"traffic, transportation",Der *Verkehr* auf der Passstrasse ist gesp
 "der Weg, -e","way, path",Auf ihrem *Weg* zum Gipfel kommen sie vorbei.,On their *way* to the summit they pass by.,,noun
 "der Wintersportler, -",winter sports enthusiast,*Wintersportler* können sehr leicht Lawinen auslösen.,*Winter sports enthusiast*s can very easily trigger avalanches.,Compound: Winter + Sport + -ler (person suffix),alpine compound noun
 "der Wissenschaftler, -",scientist,Die *Wissenschaftler* mussten zurückbleiben.,The *scientist*s had to stay behind.,,noun
-die Alpingeschichte,alpine history,Die Stelle ist in die *Alpingeschichte* eingegangen.,The spot went down in *alpine history*.,Compound: alpin (alpine) + Geschichte (history),alpine compound noun
+"die Alpingeschichte, -n",alpine history,Die Stelle ist in die *Alpingeschichte* eingegangen.,The spot went down in *alpine history*.,Compound: alpin (alpine) + Geschichte (history),alpine compound noun
 "die Bergstation, -en",top station (of a lift or cable car),Von der *Bergstation* des Sessellifts zuerst nordwärts.,"From the *top station* of the chairlift, first northward.",Compound: Berg (mountain) + Station (station),alpine compound noun
 "die Besteigung, -en","ascent, climbing (of a mountain)",Die frühen *Besteigung*en weisen eine Gemeinsamkeit auf.,The early *ascent*s share a commonality.,,alpine noun
 "die Endstation, -en","final stop, terminus; end of the line",Nicht selten bedeutet diese Schulter auch *Endstation*.,Not infrequently this shoulder also means the *end of the line*.,,noun
@@ -63,7 +63,7 @@ die Alpingeschichte,alpine history,Die Stelle ist in die *Alpingeschichte* einge
 "die Hütte, -n","hut, mountain hut (refuge)",Zum Skidepot bei der Metallleiter unter der Konkordia*hütte*.,To the ski depot at the metal ladder below the Konkordia *hut*.,,alpine noun
 "die Lage, -n","location, situation; layer, level",Besonders in mittleren *Lage*n.,Especially at mid-*elevations*.,,noun
 "die Lawine, -n",avalanche,Es sind spontane *Lawine*n zu erwarten.,Spontaneous *avalanche*s are to be expected.,,avalanche noun
-die Lawinengefahr,avalanche danger,Die *Lawinengefahr* ist erheblich.,The *avalanche danger* is considerable.,Compound: Lawine (avalanche) + Gefahr (danger),avalanche compound noun
+"die Lawinengefahr, -en",avalanche danger,Die *Lawinengefahr* ist erheblich.,The *avalanche danger* is considerable.,Compound: Lawine (avalanche) + Gefahr (danger),avalanche compound noun
 "die Leiter, -n",ladder,Die *Leiter* führt zur Hütte hinauf.,The *ladder* leads up to the hut.,,noun
 "die Lockerschneelawine, -n",loose-snow avalanche,Mit der Sonneneinstrahlung sind feuchte *Lockerschneelawine*n zu erwarten.,"With solar radiation, wet *loose-snow avalanche*s are to be expected.",Compound: locker (loose) + Schnee (snow) + Lawine (avalanche),avalanche compound noun
 "die Metallleiter, -n",metal ladder,Zum Skidepot bei der *Metallleiter* unter der Hütte.,To the ski depot at the *metal ladder* below the hut.,Compound: Metall (metal) + Leiter (ladder),alpine compound noun
@@ -74,7 +74,7 @@ die Lawinengefahr,avalanche danger,Die *Lawinengefahr* ist erheblich.,The *avala
 "die Richtung, -en",direction,*Richtung* Nordwesten abfahren.,Descend in the *direction* of northwest.,,noun
 "die Schulter, -n",shoulder (also: a shoulder-shaped ridge feature),Diese markante *Schulter* bedeutet für viele Endstation.,This prominent *shoulder* means the end for many.,,alpine noun
 "die Sonne, -n",sun,Mit der *Sonne* steigt die Gefahr.,With the *sun* the danger rises.,,noun
-die Sonneneinstrahlung,"solar radiation, sun exposure",Mit der *Sonneneinstrahlung* sind feuchte Lockerschneelawinen zu erwarten.,"With *solar radiation*, wet loose-snow avalanches are to be expected.",Compound: Sonne (sun) + Einstrahlung (radiation/irradiation),avalanche compound noun
+"die Sonneneinstrahlung, -en","solar radiation, sun exposure",Mit der *Sonneneinstrahlung* sind feuchte Lockerschneelawinen zu erwarten.,"With *solar radiation*, wet loose-snow avalanches are to be expected.",Compound: Sonne (sun) + Einstrahlung (radiation/irradiation),avalanche compound noun
 "die Stelle, -n","place, spot; position","Die *Stelle*, an der er zurückbleiben musste, ist bekannt.",The *spot* where he had to stay behind is well known.,,noun
 "die Stufe, -n","step, level, stage",Es gibt fünf Gefahren*stufe*n.,There are five danger *levels*.,,noun
 die Verhältnisse (pl.),"conditions, circumstances",Die *Verhältnisse* für Schneesport abseits gesicherter Pisten sind sehr kritisch.,*Conditions* for snow sports away from secured pistes are very critical.,,noun
@@ -229,7 +229,7 @@ dementsprechend,"accordingly, correspondingly",*Dementsprechend* viele Leute sin
 "die Steigtechnik, -en",climbing technique,Die Tour stellt keine grossen Anforderungen an *Steigtechnik*.,The tour poses no great demands on *climbing technique*.,Compound: steigen (to climb) + Technik (technique),alpine compound noun
 "die Skitechnik, -en",skiing technique,Die Tour stellt keine grossen Anforderungen an *Skitechnik*.,The tour poses no great demands on *skiing technique*.,Compound: Ski + Technik (technique),alpine compound noun
 "die Technik, -en",technique,Gute *Technik* ist im steilen Gelände wichtig.,Good *technique* is important on steep terrain.,,noun
-die Gratulation,"congratulations, congratulation",*Gratulation* an Urs — dies war seine erste Snowboardtour!,*Congratulations* to Urs — this was his first snowboard tour!,,noun
+"die Gratulation, -en","congratulations, congratulation",*Gratulation* an Urs — dies war seine erste Snowboardtour!,*Congratulations* to Urs — this was his first snowboard tour!,,noun
 starten,"to start, to set off",*Gestartet* sind wir um 08.00 Uhr von der Station Realp.,We *started* at 08:00 from the station Realp.,,verb
 "die Wolke, -n",cloud,Die *Wolke*n sollten sich bald verziehen.,The *cloud*s should clear up soon.,,noun
 zu Fuss,on foot,Der Hauptgipfel kann in wenigen Minuten *zu Fuss* erreicht werden.,The main summit can be reached *on foot* in a few minutes.,Swiss spelling (no ß). Standard German: zu Fuß,phrase
@@ -294,208 +294,340 @@ um,at (time); around,Gestartet sind wir *um* 08.00 Uhr von der Station Realp.,We
 klein,"small, little",Den *klein*en Felsturm südseitig umgehen.,Bypass the *small* rock tower on the south side.,,adjective
 aber,"but, however",Grandios *aber* leider viel zu kurz.,Grand *but* unfortunately far too short.,,conjunction
 auf,"on, onto, upon",*Auf* harter Spur über den Gletscher.,*On* a hard track across the glacier.,Preposition + accusative/dative,preposition
-bei,"at, near, during","*Bei* super Wetter in grandiosem Ambiente.","*In* great weather in a grand setting.",Preposition + dative; beim = bei + dem,preposition
+bei,"at, near, during",*Bei* super Wetter in grandiosem Ambiente.,*In* great weather in a grand setting.,Preposition + dative; beim = bei + dem,preposition
 durch,"through, by",Die Abfahrt *durch* lockeren Pulverschnee.,The descent *through* loose powder snow.,Preposition + accusative,preposition
-etwas,"something, somewhat","*Etwas* weiter rechts ist die Flanke weniger steil.","*Somewhat* further to the right the flank is less steep.",,pronoun
-für,"for, in favor of","Was *für* eine Freude!","What a joy! (lit. what *for* a joy)",Preposition + accusative,preposition
-hier,"here, in this place","Von *hier* schöne Sicht auf den Westgrat.","From *here* a nice view of the west ridge.",,adverb
-in,"in, into, inside","*In* angenehmer Steigung auf den Gipfel.","*In* a pleasant incline up to the summit.",Preposition + accusative/dative,preposition
+etwas,"something, somewhat",*Etwas* weiter rechts ist die Flanke weniger steil.,*Somewhat* further to the right the flank is less steep.,,pronoun
+für,"for, in favor of",Was *für* eine Freude!,What a joy! (lit. what *for* a joy),Preposition + accusative,preposition
+hier,"here, in this place",Von *hier* schöne Sicht auf den Westgrat.,From *here* a nice view of the west ridge.,,adverb
+in,"in, into, inside",*In* angenehmer Steigung auf den Gipfel.,*In* a pleasant incline up to the summit.,Preposition + accusative/dative,preposition
 leider,"unfortunately, sadly",Grandios aber *leider* viel zu kurz.,Grand but *unfortunately* far too short.,,adverb
-mit,"with, by means of","Wir begannen *mit* der Abfahrt um 11.00 Uhr.","We began *with* the descent at 11:00.",Preposition + dative,preposition
-oder,"or, or else","Ein Auge (*oder* besser zwei) offen halten.","Keep one eye (*or* better two) open.",,conjunction
-schnell,"fast, quick, quickly","*Schnell* die Felle weg und hinunter.","*Quickly* off with the skins and down.",,adjective adverb
-schon,"already, even","*Schon* bald blieben die Skis stehen.","The skis *already* came to a stop soon.",,adverb
-was,"what, which","*Was* für eine Freude!","*What* a joy!",,pronoun
-wenn,"when, if, whenever","Schön *wenn* man sich das aussuchen kann.","Nice *when* you can choose it like that.",,conjunction
-wir,"we, us","*Wir* begannen mit der Abfahrt um 11.00 Uhr.","*We* began the descent at 11:00.",,pronoun
-auch,"also, too, as well","Monte Rosa und Matterhorn waren *auch* bestens zu sehen.","Monte Rosa and Matterhorn were *also* easy to see.",,adverb
-alle,"all, every, everyone","Die Spalten waren praktisch *alle* zugedeckt.","The crevasses were practically *all* covered.",,pronoun
-uns,"us (dative/accusative)",Eine lange Gipfelrast blieb *uns* leider verwehrt.,A long summit rest was unfortunately denied to *us*.,Dative/accusative of wir,pronoun
+mit,"with, by means of",Wir begannen *mit* der Abfahrt um 11.00 Uhr.,We began *with* the descent at 11:00.,Preposition + dative,preposition
+oder,"or, or else",Ein Auge (*oder* besser zwei) offen halten.,Keep one eye (*or* better two) open.,,conjunction
+schnell,"fast, quick, quickly",*Schnell* die Felle weg und hinunter.,*Quickly* off with the skins and down.,,adjective adverb
+schon,"already, even",*Schon* bald blieben die Skis stehen.,The skis *already* came to a stop soon.,,adverb
+was,"what, which",*Was* für eine Freude!,*What* a joy!,,pronoun
+wenn,"when, if, whenever",Schön *wenn* man sich das aussuchen kann.,Nice *when* you can choose it like that.,,conjunction
+wir,"we, us",*Wir* begannen mit der Abfahrt um 11.00 Uhr.,*We* began the descent at 11:00.,,pronoun
+auch,"also, too, as well",Monte Rosa und Matterhorn waren *auch* bestens zu sehen.,Monte Rosa and Matterhorn were *also* easy to see.,,adverb
+alle,"all, every, everyone",Die Spalten waren praktisch *alle* zugedeckt.,The crevasses were practically *all* covered.,,pronoun
+uns,us (dative/accusative),Eine lange Gipfelrast blieb *uns* leider verwehrt.,A long summit rest was unfortunately denied to *us*.,Dative/accusative of wir,pronoun
 sich,"oneself, themselves",Schön wenn man *sich* das aussuchen kann.,Nice when you can choose it for *yourself*.,Reflexive pronoun,pronoun
 gut,"good, well",Auf harter aber *guter* Spur über den Gletscher.,On a hard but *good* track across the glacier.,"Irregular: gut, besser, am besten",adjective
-schön,"beautiful, nice, lovely","*Schöne* Sicht auf den luftigen Westgrat.","A *beautiful* view of the airy west ridge.",,adjective
-nun,"now, well","*Nun* in NE-Richtung über die steile Flanke.","*Now* in a NE direction over the steep flank.",,adverb
-zuerst,"first, at first","*Zuerst* in bestem Firn über den Firnrücken.","*First* in the best firn over the firn ridge.",,adverb
-einmal,"once, one time","Heute herrschten *einmal* mehr Traumbedingungen.","*Once* again dream conditions prevailed today.",,adverb
-einzig,"only, sole, single","*Einzig* der Wind in Gipfelnähe war störend.","*Only* the wind near the summit was annoying.",,adjective
-immer,"always, ever","Der Gletscher ist noch *immer* perfekt eingeschneit.","The glacier is still (*always*) perfectly snow-covered.",,adverb
-rechts,"right (direction), to the right","Etwas weiter *rechts* ist die Flanke weniger steil.","Somewhat further to the *right* the flank is less steep.",Opposite: links,adverb
-weiter,"further, onward","*Weiter* über den oberen Steingletscher.","*Further* over the upper Stein glacier.",,adverb
-weniger,"less, fewer","Die Flanke ist *weniger* steil.","The flank is *less* steep.",Comparative of wenig,adverb
-der Start,"start, beginning","*Start* um 05.00 Uhr beim Steingletscher.","*Start* at 05:00 at the Stein glacier.",,noun sustenhorn
-die Spur,"track, trail","Auf harter aber guter *Spur* über den Gletscher.","On a hard but good *track* across the glacier.",Plural: Spuren,noun alpine
-der Abzweiger,"fork, junction, turnoff","Beim Sustenhorn-*Abzweiger* auf ca. 2760m kurze Pause.","At the Sustenhorn *junction* at approx. 2760m a short break.",,noun alpine sustenhorn
-die Pause,"break, pause, rest","Beim Abzweiger auf ca. 2760m kurze *Pause*.","At the junction at approx. 2760m a short *break*.",Plural: Pausen,noun
-die Steigung,"incline, gradient, slope","In angenehmer *Steigung* problemlos auf den Gipfel.","In a pleasant *incline* easily up to the summit.",,noun alpine
-das Panorama,"panorama, view","Ein grandioses *Panorama* auf dem Gipfel.","A grand *panorama* at the summit.",Plural: Panoramen,noun
-der Himmel,"sky, heaven","Keine Wolke am *Himmel*.","Not a cloud in the *sky*.",am Himmel = in the sky,noun
-der Wind,"wind, breeze","Ein stürmischer *Wind* auf dem Gipfel.","A stormy *wind* at the summit.",Plural: Winde,noun
-die Rast,"rest, break (during a hike)","Eine lange Gipfel*rast* blieb uns verwehrt.","A long summit *rest* was denied to us.",,noun alpine
-die Gipfelrast,"summit rest, rest at the top","Eine lange *Gipfelrast* blieb uns leider verwehrt.","A long *summit rest* was unfortunately denied to us.",Compound: Gipfel + Rast,noun compound alpine sustenhorn
-"das Fell, -e","climbing skin (for ski touring)","Schnell die *Felle* weg und hinunter.","*Skins* off quickly and down.",Plural: Felle; used to grip snow when ascending,noun alpine
-die Devise,"motto, maxim, plan","Schnell hinunter lautete die *Devise*.","Quickly down was the *motto*.",,noun sustenhorn
-die Abfahrt,"descent (on skis), departure","Die *Abfahrt* durch lockeren Pulverschnee war grandios.","The *descent* through loose powder snow was grand.",Related: abfahren,noun alpine
-"das Becken, -","basin, bowl","Über das Gletscher*becken* zum Firnrücken.","Over the glacier *basin* to the firn ridge.",,noun
-das Gletscherbecken,"glacier basin","Über das *Gletscherbecken* zum Firnrücken.","Over the *glacier basin* to the firn ridge.",Compound: Gletscher + Becken,noun compound alpine sustenhorn
-"der Rücken, -","back, ridge","Über den Firn*rücken* sanft ansteigend.","Gently ascending over the firn *ridge*.",,noun
-der Firnrücken,"firn ridge","Über den *Firnrücken* sanft ansteigend zum Gipfelgrat.","Gently ascending over the *firn ridge* to the summit ridge.",Compound: Firn + Rücken,noun compound alpine sustenhorn
-das Plateau,"plateau, flat area","Problemlos auf den breiten Gipfelgrat (*Plateau*).","Easily up to the broad summit ridge (*plateau*).",,noun alpine
-das Ende,"end, finish","Wir gingen bis zu dessen *Ende* weiter.","We continued to its *end*.",,noun
-die Sicht,"view, visibility","Von hier schöne *Sicht* auf den Westgrat.","From here a nice *view* of the west ridge.",,noun alpine
-"die Spalte, -n","crevasse, crack","Die *Spalten* waren praktisch alle zugedeckt.","The *crevasses* were practically all covered.",Plural: Spalten,noun alpine
-das Eis,"ice","Kein Blank*eis*-Kontakt auf dem Gletscher.","No bare *ice* contact on the glacier.",,noun
-das Blankeis,"bare ice, exposed ice","Kein *Blankeis*-Kontakt auf dem Gletscher.","No *bare ice* contact on the glacier.",Compound: blank + Eis,noun compound alpine
-blank,"bare, exposed, shiny","Kein *Blank*eis-Kontakt auf dem Gletscher.","No *bare* ice contact on the glacier.",,adjective
-"das Auge, -n","eye","Ein *Auge* (oder besser zwei) offen halten.","Keep one *eye* (or better two) open.",Plural: Augen,noun
-der Übergang,"transition, crossing","Anschliessend *Übergang* zu perfektem Sulzschnee.","Then *transition* to perfect corn snow.",,noun alpine
-der Sulzschnee,"corn snow, slush snow","*Sulzschnee* entsteht bei warmem Wetter.","*Corn snow* forms in warm weather.",Compound: Sulz + Schnee; soft wet spring snow,noun compound alpine
-die Freude,"joy, pleasure, delight","Was für eine *Freude*!","What a *joy*!",,noun
-die Bedingung,"condition, requirement","Heute herrschten optimale *Bedingungen*.","Today optimal *conditions* prevailed.",Plural: Bedingungen,noun
-der Bereich,"area, zone, region","Im Gipfel*bereich* bis 50° steil.","In the summit *area* up to 50° steep.",Plural: Bereiche,noun
-der Gipfelbereich,"summit area","Im *Gipfelbereich* bis 50° steil.","In the *summit area* up to 50° steep.",Compound: Gipfel + Bereich,noun compound alpine
-die Schneeverhältnisse (pl.),"snow conditions","Bei guten *Schneeverhältnissen* direkt über die Flanke abfahren.","In good *snow conditions* descend directly over the flank.",Compound: Schnee + Verhältnisse; always plural,noun compound alpine
-"die Nähe, -","vicinity, proximity, nearness","Der Wind in Gipfel*nähe* war störend.","The wind in the summit *vicinity* was annoying.",,noun
-die Gipfelnähe,"vicinity of the summit, near the summit","Der Wind in *Gipfelnähe* war störend.","The wind *near the summit* was annoying.",Compound: Gipfel + Nähe,noun compound alpine sustenhorn
-die Traumbedingungen (pl.),"dream conditions, perfect conditions","Heute herrschten einmal mehr *Traumbedingungen*.","*Dream conditions* prevailed once again today.",Compound: Traum + Bedingungen,noun compound alpine sustenhorn
-"der Traum, Träume","dream","Heute herrschten *Traum*bedingungen.","Today *dream* conditions prevailed.",,noun
-hart,"hard, firm, tough","Auf *harter* Spur über den Gletscher hinauf.","On a *hard* track up across the glacier.","Irregular: hart, härter, am härtesten",adjective
-obere,"upper, higher","Weiter über den *oberen* Steingletscher.","Further over the *upper* Stein glacier.",Opposite: untere,adjective alpine
-untere,"lower, bottom","Zurück auf den *unteren* Steingletscher.","Back to the *lower* Stein glacier.",Opposite: obere,adjective alpine
-angenehm,"pleasant, comfortable","In *angenehmer* Steigung auf den Gipfel.","In a *pleasant* incline up to the summit.",,adjective
-problemlos,"without problems, easy","*Problemlos* auf den Gipfel.","*Easily* up to the summit.",Compound: Problem + los,adjective adverb
-grandios,"grand, magnificent, superb","Ein *grandioses* Panorama auf dem Gipfel.","A *grand* panorama at the summit.",,adjective sustenhorn
-stürmisch,"stormy, gusty, tempestuous","Ein *stürmischer* Wind auf dem Gipfel.","A *stormy* wind at the summit.",,adjective
-breit,"wide, broad","Der *breite* Gipfelgrat.","The *broad* summit ridge.",,adjective
-luftig,"airy, breezy, exposed","Von hier schöne Sicht auf den *luftigen* Westgrat.","From here a nice view of the *airy* west ridge.",In alpine context: exposed/airy,adjective alpine
-gegenüberliegend,"opposite, facing","Den *gegenüberliegenden* Hinter Tierberg.","The *opposite* Hinter Tierberg.",,adjective
-natürlich,"naturally, of course","Monte Rosa war *natürlich* auch bestens zu sehen.","Monte Rosa was *of course* also easy to see.",,adverb
-praktisch,"practically, virtually","Die Spalten waren *praktisch* alle zugedeckt.","The crevasses were *practically* all covered.",,adverb
-fantastisch,"fantastic, amazing","Das war *fantastisch*!","That was *fantastic*!",,adjective sustenhorn
-perfekt,"perfect, flawless","In *perfektem* Sulzschnee abgefahren.","Descended in *perfect* corn snow.",,adjective
-optimal,"optimal, ideal","Heute herrschten *optimale* Bedingungen.","Today *optimal* conditions prevailed.",,adjective
-günstig,"affordable, favorable","Gut und *günstig* Essen und Übernachten.","Good and *affordable* food and lodging.",,adjective
-direkt,"direct, directly, straight","Ziemlich *direkt* über die NE-Flanke abfahren.","Descend fairly *directly* over the NE flank.",,adjective adverb
-zusätzlich,"additional, extra","Die Skis verlangten nach *zusätzlicher* Power.","The skis demanded *additional* power.",,adjective
-offen,"open","Ein Auge *offen* halten.","Keep one eye *open*.",,adjective
-störend,"annoying, disturbing","Der Wind war etwas *störend*.","The wind was somewhat *annoying*.",From: stören (to disturb),adjective
-ziemlich,"quite, fairly, rather","*Ziemlich* direkt über die NE-Flanke abfahren.","Descend *fairly* directly over the NE flank.",,adverb
-bleiben,"to stay, to remain","Die Skis *blieben* stehen.","The skis came to a *stop* (lit. *stayed* standing).","Irregular: blieb, ist geblieben",verb irregular
-verwehren,"to deny, to prevent","Eine Gipfelrast blieb uns leider *verwehrt*.","A summit rest was unfortunately *denied* to us.",,verb sustenhorn
-lauten,"to read, to say, to go (as in a motto)","Schnell hinunter *lautete* die Devise.","Quickly down *was* the motto.",,verb sustenhorn
-verlangen,"to demand, to require","Die Skis *verlangten* nach zusätzlicher Power.","The skis *demanded* additional power.",,verb
-montieren,"to mount, to install","Felle *montieren* und Richtung Gwächtenhorn aufbrechen.","*Mount* skins and set off toward Gwächtenhorn.",,verb alpine
-aufbrechen,"to set off, to depart, to break open","Wir *brachen* um 09.35 Uhr Richtung Gwächtenhorn *auf*.","We *set off* at 09:35 toward Gwächtenhorn.","Separable: er bricht auf. Irregular: brach auf, ist aufgebrochen",verb irregular separable
-weitergehen,"to continue, to go on","Wir *gingen* bis zu dessen Ende *weiter*.","We *continued* on to its end.","Separable: es geht weiter. Irregular: ging weiter, ist weitergegangen",verb irregular separable
-beginnen,"to begin, to start","Wir *begannen* mit der Abfahrt um 11.00 Uhr.","We *began* the descent at 11:00.","Irregular: begann, hat begonnen",verb irregular
-herrschen,"to prevail, to reign, to dominate","Heute *herrschten* Traumbedingungen.","Today dream conditions *prevailed*.",,verb
-aussuchen,"to choose, to pick out","Schön wenn man sich das so *aussuchen* kann.","Nice when you can *choose* it like that.",Separable: er sucht aus,verb separable
-sehen,"to see, to look","Monte Rosa war bestens zu *sehen*.","Monte Rosa was easy to *see*.","Irregular: sah, hat gesehen",verb irregular
-gehen,"to go, to walk","Wir *gingen* bis zu dessen Ende weiter.","We *went* on to its end.","Irregular: ging, ist gegangen",verb irregular
-halten,"to hold, to keep, to stop","Ein Auge offen *halten*.","*Keep* one eye open.","Irregular: hielt, hat gehalten",verb irregular
-essen,"to eat","Gut und günstig *Essen* im Hotel Steingletscher.","Good and affordable *food* at Hotel Steingletscher.","Irregular: aß, hat gegessen. Also used as noun: das Essen = food/meal",verb irregular
-übernachten,"to stay overnight, to spend the night","Gut und günstig *Übernachten* im Hotel.","Good and affordable *overnight stay* at the hotel.",,verb
-zudecken,"to cover, to cover up","Die Spalten waren praktisch alle *zugedeckt*.","The crevasses were practically all *covered*.",Separable: er deckt zu,verb separable alpine
-einschneien,"to snow in, to cover with snow","Der Gletscher ist perfekt *eingeschneit*.","The glacier is perfectly *covered with snow*.",Separable: es schneit ein,verb separable alpine
-viel,"much, a lot, very","Die Abfahrt war *viel* zu kurz.","The descent was *much* too short.",,adverb
-so,"so, such, like this","Die *so* genannten Traumbedingungen.","The *so*-called dream conditions.",,adverb
-dafür,"for that, instead, in return","Keine Wolke am Himmel *dafür* ein stürmischer Wind.","Not a cloud in the sky but *instead* a stormy wind.",,adverb
-weg,"away, gone, off","Schnell die Felle *weg* und hinunter.","*Off* with the skins quickly and down.",,adverb
-an,"at, on, to","Keine Wolke *am* Himmel.","Not a cloud in the sky (lit. *at* the sky).",Preposition + dative/accusative; am = an + dem,preposition
-stehen,"to stand, to stop","Die Skis blieben *stehen*.","The skis came to a *stop* (lit. remained *standing*).","Irregular: stand, hat gestanden",verb irregular
-leicht,"light, slight, easy","*Leicht* gedeckelter Pulver bis ca. 2800m.","*Slightly* crusted powder to approx. 2800m.",,adjective adverb
-"die Frau, -en","woman, wife, Mrs.","Die Skis verlangten nach *Frauen*- resp. Männerpower.","The skis demanded *women's* or men's power.",Plural: Frauen,noun
-"der Mann, Männer","man, husband","Die Skis verlangten nach Frauen- resp. *Männer*power.","The skis demanded women's or *men's* power.",Plural: Männer (irregular),noun
-das Hotel,"hotel","Gut und günstig Essen im *Hotel* Steingletscher.","Good and affordable food at *Hotel* Steingletscher.",,noun
-am,"at the, on the (contraction)","Keine Wolke *am* Himmel.","Not a cloud in the sky (lit. *at the* sky).",Contraction of an + dem (dative),contraction
-vom,"from the (contraction)","Die Abfahrt *vom* Gwächtenhorn.","The descent *from the* Gwächtenhorn.",Contraction of von + dem (dative),contraction
-ins,"into the (contraction)","500hm *ins* Gletscherbecken abgefahren.","Descended 500m *into the* glacier basin.",Contraction of in + das (accusative),contraction
-im,"in the (contraction)","*Im* Gipfelbereich bis 50° steil.","*In the* summit area up to 50° steep.",Contraction of in + dem (dative),contraction
-beim,"at the (contraction)","Start *beim* Steingletscher.","Start *at the* Stein glacier.",Contraction of bei + dem (dative),contraction
-die Vorsicht,"caution, care","*Vorsicht*: Tour führt über Gletscher!","*Caution*: tour crosses a glacier!",,noun alpine
-anseilen,"to rope up","*Anseilen* kann erforderlich sein!","*Roping up* may be required!",Separable: er seilt an. Opposite: abseilen,verb separable alpine
-erforderlich,"required, necessary","Anseilen kann *erforderlich* sein.","Roping up may be *required*.",,adjective
-führen,"to lead, to go (of a route)","Die Tour *führt* über den Gletscher.","The tour *goes* over the glacier.",,verb
-"die Distanz, -en","distance","*Distanz* 18.8km.","*Distance* 18.8km.",,noun
-westlich,"westerly, western","In *westlicher* Richtung sanft ansteigend.","Gently ascending in a *westerly* direction.",Opposite: östlich,adjective
-"der Kontakt, -e","contact","Kein Blankeis-*Kontakt* auf dem Gletscher.","No bare ice *contact* on the glacier.",,noun
-gedeckelt,"crusted (snow), capped","Leicht *gedeckelter* Pulver bis ca. 2800m.","Slightly *crusted* powder to approx. 2800m.",Snow term: thin crust over powder,adjective alpine
-"der Ski, -er","ski","Die *Skis* blieben auf ca. 3060m stehen.","The *skis* came to a stop at approx. 3060m.",Plural: Skier or Skis,noun alpine
-die Erfrischungspause,"refreshment break","Nach kurzer *Erfrischungspause* brachen wir auf.","After a short *refreshment break* we set off.",Compound: Erfrischung + Pause,noun compound sustenhorn
-"die Erfrischung, -en","refreshment","Nach kurzer *Erfrischungs*pause brachen wir auf.","After a short *refreshment* break we set off.",,noun
-bestens,"very well, excellently, at best","Monte Rosa war *bestens* zu sehen.","Monte Rosa could be seen *very well*.",Superlative of gut,adverb
-der Gipfelgrat,"summit ridge","Problemlos auf den breiten *Gipfelgrat*.","Easily up to the broad *summit ridge*.",Compound: Gipfel + Grat,noun compound alpine sustenhorn
-"die Aufstiegsspur, -en","ascent track, skin track","Entlang der *Aufstiegsspuren* abgefahren.","Descended along the *ascent tracks*.",Compound: Aufstieg + Spur,noun compound alpine
-sein,"to be","Um 14.30 Uhr *sind* wir unten im Tal.","At 14:30 we *are* down in the valley.","Irregular: bin, bist, ist, sind, seid, sind. Past: war, gewesen",verb irregular
-haben,"to have, to possess","*Hatten* tiefen Powder bis hinunter nach Riemenstalden.","*Had* deep powder all the way down to Riemenstalden.","Irregular: habe, hast, hat. Past: hatte, gehabt",verb irregular
-werden,"to become, to get","Dann *wird* es etwas enger.","Then it *gets* somewhat narrower.","Irregular: wurde, ist geworden. Also auxiliary for passive/future",verb irregular
-müssen,"must, to have to","Der beste Durchschlupf *muss* gesucht werden.","The best passage *must* be found.","Modal verb: muss, musst, muss, müssen",verb irregular modal
-wollen,"to want","*Wollten* eigentlich direkt auf den Hagelstock.","*Wanted* to go directly to the Hagelstock.","Modal verb: will, willst, will, wollen. Past: wollte",verb irregular modal
-machen,"to make, to do","Die am meisten *gemachte* Skitour im Gebiet.","The most frequently *done* ski tour in the area.","Regular. Past participle: gemacht",verb
-fahren,"to drive, to go (by vehicle)","Die Bahn *fährt* ab 06.00 Uhr morgens.","The cable car *runs* from 06:00 in the morning.","Irregular: fährt, fuhr, ist gefahren",verb irregular
-bringen,"to bring, to take","Den Gipfelhang schnell unter uns *gebracht*.","Quickly got the summit slope behind (*brought* under) us.","Irregular: brachte, hat gebracht",verb irregular
-suchen,"to search, to look for","Der beste Durchschlupf muss *gesucht* werden.","The best passage must be *found* (lit. *searched* for).",,verb
-folgen,"to follow","Den Spuren *folgend* ohne Probleme bis auf den Gipfel.","*Following* the tracks without problems to the summit.",+ dative: er folgt dem Weg,verb
-entscheiden,"to decide","Wir *entschieden* uns kurzerhand für den Spilauerstock.","We *decided* on the spot to go for the Spilauerstock.","Irregular: entschied, hat entschieden. Reflexive: sich entscheiden",verb irregular
-aufstehen,"to get up, to stand up","Am Wochenende lohnt es sich früh *aufzustehen*.","On weekends it's worth *getting up* early.","Separable: er steht auf. Irregular: stand auf, ist aufgestanden",verb irregular separable
-spuren,"to break trail, to make tracks","Kurz auf den Spilauerstock hinauf*spuren*.","Quickly *break trail* up to the Spilauerstock.",Ski touring term: to be first up a slope and create tracks,verb alpine
-anfellen,"to put on climbing skins","Hinunter zum Schmalstöckli und *anfellen*.","Down to the Schmalstöckli and *put on skins*.",Separable: er fellt an. From: das Fell (climbing skin),verb separable alpine
-traversieren,"to traverse, to cross","In NE-Richtung zum Schnüerstock *traversieren*.","*Traverse* in a NE direction to the Schnüerstock.",,verb alpine
-empfehlen,"to recommend","Eine *empfohlene* Abfahrtsvariante nach Chäppeliberg.","A *recommended* descent variant to Chäppeliberg.","Irregular: empfiehlt, empfahl, hat empfohlen",verb irregular
-ausführen,"to carry out, to execute","Sehr oft *ausgeführte* lohnende Skitour.","Very often *undertaken* rewarding ski tour.",Separable: er führt aus,verb separable
-ab,"from, starting from, as of","Die Bahn fährt *ab* 06.00 Uhr morgens.","The cable car runs *from* 06:00 in the morning.",Preposition + dative. Also separable verb prefix,preposition
-also,"so, therefore, well then","*Also* alles dem Grat entlang in östlicher Richtung.","*So* everything along the ridge in an easterly direction.",,conjunction
-alles,"everything, all of it","Also *alles* dem Grat entlang.","So *everything* along the ridge.",,pronoun
-es,"it","Am Wochenende lohnt *es* sich früh aufzustehen.","On weekends *it* is worth getting up early.",,pronoun
-jedoch,"however, yet, but","Wollten direkt auf den Hagelstock *jedoch* entschieden wir uns für den Spilauerstock.","Wanted to go to the Hagelstock *however* we decided on the Spilauerstock.",,conjunction
-ohne,"without","Den Spuren folgend *ohne* Probleme bis auf den Gipfel.","Following the tracks *without* problems to the summit.",Preposition + accusative,preposition
-unter,"under, below, beneath","Den Gipfelhang schnell *unter* uns gebracht.","Quickly got the summit slope *below* us.",Preposition + accusative/dative,preposition
-unten,"below, at the bottom, down","Um 14.30 Uhr sind wir *unten* im Tal.","At 14:30 we are *down* in the valley.",,adverb
-zwischen,"between, among","Der beste Durchschlupf *zwischen* den Felsen.","The best passage *between* the rocks.",Preposition + dative,preposition
-hinauf,"up, upward","Kurz auf den Spilauerstock *hinauf*spuren.","Quickly break trail *up* to the Spilauerstock.",Opposite: hinunter,adverb
-morgens,"in the morning","Die Bahn fährt ab 06.00 Uhr *morgens*.","The cable car runs from 06:00 *in the morning*.",,adverb
-letzte,"last, final","Die *letzten* Meter dann zu Fuss.","The *last* meters then on foot.",,adjective
-einige,"some, a few, several","Mit *einigen* schweisstreibenden Kehren.","With *some* sweat-inducing switchbacks.",,pronoun
-östlich,"eastern, easterly","In *östlicher* Richtung bis an den Gipfelhang.","In an *easterly* direction to the summit slope.",Opposite: westlich,adjective
-pulvrig,"powdery (snow)","Nun *pulvrige* Abfahrt hinunter zum See.","Now a *powdery* descent down to the lake.",From: der Pulver (powder),adjective alpine
-kurzerhand,"on the spot, without hesitation","Wir entschieden uns *kurzerhand* für den Spilauerstock.","We decided *on the spot* to go for the Spilauerstock.",,adverb
-schweisstreibend,"sweat-inducing, strenuous","Mit einigen *schweisstreibenden* Kehren zum Gipfel.","With some *sweat-inducing* switchbacks to the summit.",Compound: Schweiss + treibend,adjective compound alpine
-prächtig,"magnificent, splendid, gorgeous","*Prächtige* Aussicht auf die W-Wand.","A *magnificent* view of the west wall.",,adjective
-eng,"narrow, tight","Dann wird es etwas *enger*.","Then it gets somewhat *narrower*.",,adjective
-toll,"great, awesome, fantastic","Immer noch *tolle* Abfahrt inklusive Schanzegumpe!","Still a *great* descent including jump bumps!",,adjective
-ausgiebig,"extensive, thorough, hearty","Eine *ausgiebige* Pause im Gasthof.","A *hearty* break at the inn.",,adjective
-tief,"deep, low","*Tiefen* Powder bis hinunter nach Riemenstalden.","*Deep* powder all the way down to Riemenstalden.",,adjective
-genussvoll,"enjoyable, delightful","Nun *genussvolle* Abfahrt über weite Hänge.","Now a *delightful* descent over wide slopes.",From: der Genuss (enjoyment),adjective
-weit,"wide, vast, far","Abfahrt über *weite* offene Hänge.","Descent over *wide* open slopes.",,adjective
-inklusive,"including, inclusive of","Tolle Abfahrt *inklusive* Schanzegumpe!","Great descent *including* jump bumps!",Abbreviation: inkl.,preposition
-"die Seilbahn, -en","cable car, aerial tramway","Mit der *Seilbahn* von Chäppeliberg nach Gitschen.","By *cable car* from Chäppeliberg to Gitschen.",Compound: Seil + Bahn,noun compound alpine
-"die Bahn, -en","railway, cable car, train","Die *Bahn* fährt ab 06.00 Uhr morgens.","The *cable car* runs from 06:00 in the morning.",,noun
-"der Morgen, -","morning","Am Wochenende lohnt es sich früh am *Morgen* aufzustehen.","On weekends it's worth getting up early in the *morning*.",morgens = in the morning,noun
-"das Wochenende, -n","weekend","Am *Wochenende* lohnt es sich früh aufzustehen.","On *weekends* it's worth getting up early.",Compound: Woche + Ende,noun compound
-"die Woche, -n","week","Am *Wochen*ende lohnt es sich früh aufzustehen.","On *week*ends it's worth getting up early.",,noun
-"das Gebiet, -e","area, region, territory","Die am meisten gemachte Skitour im *Gebiet*.","The most frequently done ski tour in the *area*.",,noun
-"das Problem, -e","problem, issue","Den Spuren folgend ohne *Probleme* bis auf den Gipfel.","Following the tracks without *problems* to the summit.",,noun
-"die Kehre, -n","switchback, hairpin turn","Mit einigen schweisstreibenden *Kehren* zum Gipfel.","With some sweat-inducing *switchbacks* to the summit.",,noun alpine
-"das Kreuz, -e","cross","Die letzten Meter zu Fuss bis zum Gipfel*kreuz*.","The last meters on foot to the summit *cross*.",,noun
-"das Gipfelkreuz, -e","summit cross","Die letzten Meter zu Fuss bis zum *Gipfelkreuz*.","The last meters on foot to the *summit cross*.",Compound: Gipfel + Kreuz,noun compound alpine
-"die Aussicht, -en","view, outlook, prospect","*Prächtige* Aussicht auf die W-Wand.","Magnificent *view* of the west wall.",,noun
-"die Masse, -n","mass, crowd","Die *Massen* auf dem Gipfel.","The *crowds* at the summit.",,noun
-"der Gipfelhang, Gipfelhänge","summit slope","Vor allem der steile *Gipfelhang* hat gerockt!","Especially the steep *summit slope* was awesome!",Compound: Gipfel + Hang,noun compound alpine
-"der Durchschlupf, Durchschlüpfe","gap, passage, way through","Der beste *Durchschlupf* zwischen den Felsen.","The best *passage* between the rocks.",,noun alpine
-"der Wald, Wälder","forest, woods","Via Färnen*wald* zurück nach Chäppeliberg.","Via Färnen *forest* back to Chäppeliberg.",,noun
-"das Holz, Hölzer","wood, timber","Via Färnenwald (*Holz*hackerei) zurück.","Via Färnenwald (*wood*cutting) back.",,noun
-"das Pferd, -e","horse","Via Cher (*Pferde*stall) zurück nach Chäppeliberg.","Via Cher (*horse* stable) back to Chäppeliberg.",,noun
-"der Stall, Ställe","stable, barn","Via Cher (Pferde*stall*) zurück nach Chäppeliberg.","Via Cher (horse *stable*) back to Chäppeliberg.",,noun
-"der Pferdestall, Pferdeställe","horse stable","Via Cher (*Pferdestall*) zurück nach Chäppeliberg.","Via Cher (*horse stable*) back to Chäppeliberg.",Compound: Pferd + Stall,noun compound
-"der Gasthof, Gasthöfe","inn, guesthouse","Eine ausgiebige Pause im *Gasthof* in Riemenstalden.","A hearty break at the *inn* in Riemenstalden.",,noun
-"die Variante, -n","variant, alternative","Eine empfohlene Abfahrts*variante* nach Chäppeliberg.","A recommended descent *variant* to Chäppeliberg.",,noun
-"die Abfahrtsvariante, -n","descent variant, alternative descent","Eine empfohlene *Abfahrtsvariante* nach Chäppeliberg.","A recommended *descent variant* to Chäppeliberg.",Compound: Abfahrt + Variante,noun compound alpine
-"die Seite, -n","side, page","Zum Schnüerstock (E-*Seite*) traversieren.","Traverse to the Schnüerstock (E *side*).",,noun
-"der Genuss, Genüsse","enjoyment, pleasure, treat","Nun *genuss*volle Abfahrt über weite Hänge.","Now an *enjoyable* descent over wide slopes.",,noun
-"die Kombination, -en","combination","Besonders in *Kombination* mit dem Spilauerstock.","Especially in *combination* with the Spilauerstock.",,noun
-"die Schwierigkeit, -en","difficulty, problem","Lohnende Skitour ohne *Schwierigkeiten*.","Rewarding ski tour without *difficulties*.",,noun
-"der Schweiss","sweat, perspiration","Mit einigen *schweiss*treibenden Kehren zum Gipfel.","With some *sweat*-inducing switchbacks to the summit.",,noun
-"die Mode, -n","fashion, trend","Der Rossstock — die *Mode*tour schlechthin.","The Rossstock — the *trendy* tour par excellence.",,noun
-"die Modetour, -en","trendy tour, fashionable tour","Der Rossstock — die *Modetour* schlechthin.","The Rossstock — *the* trendy *tour* par excellence.",Compound: Mode + Tour,noun compound
-"die Schanze, -n","jump, ski jump","Tolle Abfahrt inklusive *Schanze*gumpe!","Great descent including *jump* bumps!",,noun alpine
-"der Felsen, -","rock, rock face, cliff","Der beste Durchschlupf zwischen den *Felsen*.","The best passage between the *rocks*.",Similar to der Fels but used more for individual rock formations,noun alpine
-flacher,"flatter (comparative)","Dann leider etwas *flacher* zurück nach Chäppeliberg.","Then unfortunately somewhat *flatter* back to Chäppeliberg.",Comparative of flach,adjective
+schön,"beautiful, nice, lovely",*Schöne* Sicht auf den luftigen Westgrat.,A *beautiful* view of the airy west ridge.,,adjective
+nun,"now, well",*Nun* in NE-Richtung über die steile Flanke.,*Now* in a NE direction over the steep flank.,,adverb
+zuerst,"first, at first",*Zuerst* in bestem Firn über den Firnrücken.,*First* in the best firn over the firn ridge.,,adverb
+einmal,"once, one time",Heute herrschten *einmal* mehr Traumbedingungen.,*Once* again dream conditions prevailed today.,,adverb
+einzig,"only, sole, single",*Einzig* der Wind in Gipfelnähe war störend.,*Only* the wind near the summit was annoying.,,adjective
+immer,"always, ever",Der Gletscher ist noch *immer* perfekt eingeschneit.,The glacier is still (*always*) perfectly snow-covered.,,adverb
+rechts,"right (direction), to the right",Etwas weiter *rechts* ist die Flanke weniger steil.,Somewhat further to the *right* the flank is less steep.,Opposite: links,adverb
+weiter,"further, onward",*Weiter* über den oberen Steingletscher.,*Further* over the upper Stein glacier.,,adverb
+weniger,"less, fewer",Die Flanke ist *weniger* steil.,The flank is *less* steep.,Comparative of wenig,adverb
+"der Start, -s","start, beginning",*Start* um 05.00 Uhr beim Steingletscher.,*Start* at 05:00 at the Stein glacier.,,noun sustenhorn
+"die Spur, -en","track, trail",Auf harter aber guter *Spur* über den Gletscher.,On a hard but good *track* across the glacier.,Plural: Spuren,noun alpine
+"der Abzweiger, -","fork, junction, turnoff",Beim Sustenhorn-*Abzweiger* auf ca. 2760m kurze Pause.,At the Sustenhorn *junction* at approx. 2760m a short break.,,noun alpine sustenhorn
+"die Pause, -n","break, pause, rest",Beim Abzweiger auf ca. 2760m kurze *Pause*.,At the junction at approx. 2760m a short *break*.,Plural: Pausen,noun
+"die Steigung, -en","incline, gradient, slope",In angenehmer *Steigung* problemlos auf den Gipfel.,In a pleasant *incline* easily up to the summit.,,noun alpine
+"das Panorama, Panoramen","panorama, view",Ein grandioses *Panorama* auf dem Gipfel.,A grand *panorama* at the summit.,Plural: Panoramen,noun
+"der Himmel, -","sky, heaven",Keine Wolke am *Himmel*.,Not a cloud in the *sky*.,am Himmel = in the sky,noun
+"der Wind, -e","wind, breeze",Ein stürmischer *Wind* auf dem Gipfel.,A stormy *wind* at the summit.,Plural: Winde,noun
+"die Rast, -en","rest, break (during a hike)",Eine lange Gipfel*rast* blieb uns verwehrt.,A long summit *rest* was denied to us.,,noun alpine
+"die Gipfelrast, -en","summit rest, rest at the top",Eine lange *Gipfelrast* blieb uns leider verwehrt.,A long *summit rest* was unfortunately denied to us.,Compound: Gipfel + Rast,noun compound alpine sustenhorn
+"das Fell, -e",climbing skin (for ski touring),Schnell die *Felle* weg und hinunter.,*Skins* off quickly and down.,Plural: Felle; used to grip snow when ascending,noun alpine
+"die Devise, -n","motto, maxim, plan",Schnell hinunter lautete die *Devise*.,Quickly down was the *motto*.,,noun sustenhorn
+"die Abfahrt, -en","descent (on skis), departure",Die *Abfahrt* durch lockeren Pulverschnee war grandios.,The *descent* through loose powder snow was grand.,Related: abfahren,noun alpine
+"das Becken, -","basin, bowl",Über das Gletscher*becken* zum Firnrücken.,Over the glacier *basin* to the firn ridge.,,noun
+"das Gletscherbecken, -",glacier basin,Über das *Gletscherbecken* zum Firnrücken.,Over the *glacier basin* to the firn ridge.,Compound: Gletscher + Becken,noun compound alpine sustenhorn
+"der Rücken, -","back, ridge",Über den Firn*rücken* sanft ansteigend.,Gently ascending over the firn *ridge*.,,noun
+"der Firnrücken, -",firn ridge,Über den *Firnrücken* sanft ansteigend zum Gipfelgrat.,Gently ascending over the *firn ridge* to the summit ridge.,Compound: Firn + Rücken,noun compound alpine sustenhorn
+"das Plateau, -s","plateau, flat area",Problemlos auf den breiten Gipfelgrat (*Plateau*).,Easily up to the broad summit ridge (*plateau*).,,noun alpine
+"das Ende, -n","end, finish",Wir gingen bis zu dessen *Ende* weiter.,We continued to its *end*.,,noun
+"die Sicht, -en","view, visibility",Von hier schöne *Sicht* auf den Westgrat.,From here a nice *view* of the west ridge.,,noun alpine
+"die Spalte, -n","crevasse, crack",Die *Spalten* waren praktisch alle zugedeckt.,The *crevasses* were practically all covered.,Plural: Spalten,noun alpine
+das Eis,ice,Kein Blank*eis*-Kontakt auf dem Gletscher.,No bare *ice* contact on the glacier.,,noun
+das Blankeis,"bare ice, exposed ice",Kein *Blankeis*-Kontakt auf dem Gletscher.,No *bare ice* contact on the glacier.,Compound: blank + Eis,noun compound alpine
+blank,"bare, exposed, shiny",Kein *Blank*eis-Kontakt auf dem Gletscher.,No *bare* ice contact on the glacier.,,adjective
+"das Auge, -n",eye,Ein *Auge* (oder besser zwei) offen halten.,Keep one *eye* (or better two) open.,Plural: Augen,noun
+"der Übergang, Übergänge","transition, crossing",Anschliessend *Übergang* zu perfektem Sulzschnee.,Then *transition* to perfect corn snow.,,noun alpine
+der Sulzschnee,"corn snow, slush snow",*Sulzschnee* entsteht bei warmem Wetter.,*Corn snow* forms in warm weather.,Compound: Sulz + Schnee; soft wet spring snow,noun compound alpine
+"die Freude, -n","joy, pleasure, delight",Was für eine *Freude*!,What a *joy*!,,noun
+"die Bedingung, -en","condition, requirement",Heute herrschten optimale *Bedingungen*.,Today optimal *conditions* prevailed.,Plural: Bedingungen,noun
+"der Bereich, -e","area, zone, region",Im Gipfel*bereich* bis 50° steil.,In the summit *area* up to 50° steep.,Plural: Bereiche,noun
+"der Gipfelbereich, -e",summit area,Im *Gipfelbereich* bis 50° steil.,In the *summit area* up to 50° steep.,Compound: Gipfel + Bereich,noun compound alpine
+die Schneeverhältnisse (pl.),snow conditions,Bei guten *Schneeverhältnissen* direkt über die Flanke abfahren.,In good *snow conditions* descend directly over the flank.,Compound: Schnee + Verhältnisse; always plural,noun compound alpine
+"die Nähe, -","vicinity, proximity, nearness",Der Wind in Gipfel*nähe* war störend.,The wind in the summit *vicinity* was annoying.,,noun
+die Gipfelnähe,"vicinity of the summit, near the summit",Der Wind in *Gipfelnähe* war störend.,The wind *near the summit* was annoying.,Compound: Gipfel + Nähe,noun compound alpine sustenhorn
+die Traumbedingungen (pl.),"dream conditions, perfect conditions",Heute herrschten einmal mehr *Traumbedingungen*.,*Dream conditions* prevailed once again today.,Compound: Traum + Bedingungen,noun compound alpine sustenhorn
+"der Traum, Träume",dream,Heute herrschten *Traum*bedingungen.,Today *dream* conditions prevailed.,,noun
+hart,"hard, firm, tough",Auf *harter* Spur über den Gletscher hinauf.,On a *hard* track up across the glacier.,"Irregular: hart, härter, am härtesten",adjective
+obere,"upper, higher",Weiter über den *oberen* Steingletscher.,Further over the *upper* Stein glacier.,Opposite: untere,adjective alpine
+untere,"lower, bottom",Zurück auf den *unteren* Steingletscher.,Back to the *lower* Stein glacier.,Opposite: obere,adjective alpine
+angenehm,"pleasant, comfortable",In *angenehmer* Steigung auf den Gipfel.,In a *pleasant* incline up to the summit.,,adjective
+problemlos,"without problems, easy",*Problemlos* auf den Gipfel.,*Easily* up to the summit.,Compound: Problem + los,adjective adverb
+grandios,"grand, magnificent, superb",Ein *grandioses* Panorama auf dem Gipfel.,A *grand* panorama at the summit.,,adjective sustenhorn
+stürmisch,"stormy, gusty, tempestuous",Ein *stürmischer* Wind auf dem Gipfel.,A *stormy* wind at the summit.,,adjective
+breit,"wide, broad",Der *breite* Gipfelgrat.,The *broad* summit ridge.,,adjective
+luftig,"airy, breezy, exposed",Von hier schöne Sicht auf den *luftigen* Westgrat.,From here a nice view of the *airy* west ridge.,In alpine context: exposed/airy,adjective alpine
+gegenüberliegend,"opposite, facing",Den *gegenüberliegenden* Hinter Tierberg.,The *opposite* Hinter Tierberg.,,adjective
+natürlich,"naturally, of course",Monte Rosa war *natürlich* auch bestens zu sehen.,Monte Rosa was *of course* also easy to see.,,adverb
+praktisch,"practically, virtually",Die Spalten waren *praktisch* alle zugedeckt.,The crevasses were *practically* all covered.,,adverb
+fantastisch,"fantastic, amazing",Das war *fantastisch*!,That was *fantastic*!,,adjective sustenhorn
+perfekt,"perfect, flawless",In *perfektem* Sulzschnee abgefahren.,Descended in *perfect* corn snow.,,adjective
+optimal,"optimal, ideal",Heute herrschten *optimale* Bedingungen.,Today *optimal* conditions prevailed.,,adjective
+günstig,"affordable, favorable",Gut und *günstig* Essen und Übernachten.,Good and *affordable* food and lodging.,,adjective
+direkt,"direct, directly, straight",Ziemlich *direkt* über die NE-Flanke abfahren.,Descend fairly *directly* over the NE flank.,,adjective adverb
+zusätzlich,"additional, extra",Die Skis verlangten nach *zusätzlicher* Power.,The skis demanded *additional* power.,,adjective
+offen,open,Ein Auge *offen* halten.,Keep one eye *open*.,,adjective
+störend,"annoying, disturbing",Der Wind war etwas *störend*.,The wind was somewhat *annoying*.,From: stören (to disturb),adjective
+ziemlich,"quite, fairly, rather",*Ziemlich* direkt über die NE-Flanke abfahren.,Descend *fairly* directly over the NE flank.,,adverb
+bleiben,"to stay, to remain",Die Skis *blieben* stehen.,The skis came to a *stop* (lit. *stayed* standing).,"Irregular: blieb, ist geblieben",verb irregular
+verwehren,"to deny, to prevent",Eine Gipfelrast blieb uns leider *verwehrt*.,A summit rest was unfortunately *denied* to us.,,verb sustenhorn
+lauten,"to read, to say, to go (as in a motto)",Schnell hinunter *lautete* die Devise.,Quickly down *was* the motto.,,verb sustenhorn
+verlangen,"to demand, to require",Die Skis *verlangten* nach zusätzlicher Power.,The skis *demanded* additional power.,,verb
+montieren,"to mount, to install",Felle *montieren* und Richtung Gwächtenhorn aufbrechen.,*Mount* skins and set off toward Gwächtenhorn.,,verb alpine
+aufbrechen,"to set off, to depart, to break open",Wir *brachen* um 09.35 Uhr Richtung Gwächtenhorn *auf*.,We *set off* at 09:35 toward Gwächtenhorn.,"Separable: er bricht auf. Irregular: brach auf, ist aufgebrochen",verb irregular separable
+weitergehen,"to continue, to go on",Wir *gingen* bis zu dessen Ende *weiter*.,We *continued* on to its end.,"Separable: es geht weiter. Irregular: ging weiter, ist weitergegangen",verb irregular separable
+beginnen,"to begin, to start",Wir *begannen* mit der Abfahrt um 11.00 Uhr.,We *began* the descent at 11:00.,"Irregular: begann, hat begonnen",verb irregular
+herrschen,"to prevail, to reign, to dominate",Heute *herrschten* Traumbedingungen.,Today dream conditions *prevailed*.,,verb
+aussuchen,"to choose, to pick out",Schön wenn man sich das so *aussuchen* kann.,Nice when you can *choose* it like that.,Separable: er sucht aus,verb separable
+sehen,"to see, to look",Monte Rosa war bestens zu *sehen*.,Monte Rosa was easy to *see*.,"Irregular: sah, hat gesehen",verb irregular
+gehen,"to go, to walk",Wir *gingen* bis zu dessen Ende weiter.,We *went* on to its end.,"Irregular: ging, ist gegangen",verb irregular
+halten,"to hold, to keep, to stop",Ein Auge offen *halten*.,*Keep* one eye open.,"Irregular: hielt, hat gehalten",verb irregular
+essen,to eat,Gut und günstig *Essen* im Hotel Steingletscher.,Good and affordable *food* at Hotel Steingletscher.,"Irregular: aß, hat gegessen. Also used as noun: das Essen = food/meal",verb irregular
+übernachten,"to stay overnight, to spend the night",Gut und günstig *Übernachten* im Hotel.,Good and affordable *overnight stay* at the hotel.,,verb
+zudecken,"to cover, to cover up",Die Spalten waren praktisch alle *zugedeckt*.,The crevasses were practically all *covered*.,Separable: er deckt zu,verb separable alpine
+einschneien,"to snow in, to cover with snow",Der Gletscher ist perfekt *eingeschneit*.,The glacier is perfectly *covered with snow*.,Separable: es schneit ein,verb separable alpine
+viel,"much, a lot, very",Die Abfahrt war *viel* zu kurz.,The descent was *much* too short.,,adverb
+so,"so, such, like this",Die *so* genannten Traumbedingungen.,The *so*-called dream conditions.,,adverb
+dafür,"for that, instead, in return",Keine Wolke am Himmel *dafür* ein stürmischer Wind.,Not a cloud in the sky but *instead* a stormy wind.,,adverb
+weg,"away, gone, off",Schnell die Felle *weg* und hinunter.,*Off* with the skins quickly and down.,,adverb
+an,"at, on, to",Keine Wolke *am* Himmel.,Not a cloud in the sky (lit. *at* the sky).,Preposition + dative/accusative; am = an + dem,preposition
+stehen,"to stand, to stop",Die Skis blieben *stehen*.,The skis came to a *stop* (lit. remained *standing*).,"Irregular: stand, hat gestanden",verb irregular
+leicht,"light, slight, easy",*Leicht* gedeckelter Pulver bis ca. 2800m.,*Slightly* crusted powder to approx. 2800m.,,adjective adverb
+"die Frau, -en","woman, wife, Mrs.",Die Skis verlangten nach *Frauen*- resp. Männerpower.,The skis demanded *women's* or men's power.,Plural: Frauen,noun
+"der Mann, Männer","man, husband",Die Skis verlangten nach Frauen- resp. *Männer*power.,The skis demanded women's or *men's* power.,Plural: Männer (irregular),noun
+"das Hotel, -s",hotel,Gut und günstig Essen im *Hotel* Steingletscher.,Good and affordable food at *Hotel* Steingletscher.,,noun
+am,"at the, on the (contraction)",Keine Wolke *am* Himmel.,Not a cloud in the sky (lit. *at the* sky).,Contraction of an + dem (dative),contraction
+vom,from the (contraction),Die Abfahrt *vom* Gwächtenhorn.,The descent *from the* Gwächtenhorn.,Contraction of von + dem (dative),contraction
+ins,into the (contraction),500hm *ins* Gletscherbecken abgefahren.,Descended 500m *into the* glacier basin.,Contraction of in + das (accusative),contraction
+im,in the (contraction),*Im* Gipfelbereich bis 50° steil.,*In the* summit area up to 50° steep.,Contraction of in + dem (dative),contraction
+beim,at the (contraction),Start *beim* Steingletscher.,Start *at the* Stein glacier.,Contraction of bei + dem (dative),contraction
+die Vorsicht,"caution, care",*Vorsicht*: Tour führt über Gletscher!,*Caution*: tour crosses a glacier!,,noun alpine
+anseilen,to rope up,*Anseilen* kann erforderlich sein!,*Roping up* may be required!,Separable: er seilt an. Opposite: abseilen,verb separable alpine
+erforderlich,"required, necessary",Anseilen kann *erforderlich* sein.,Roping up may be *required*.,,adjective
+führen,"to lead, to go (of a route)",Die Tour *führt* über den Gletscher.,The tour *goes* over the glacier.,,verb
+"die Distanz, -en",distance,*Distanz* 18.8km.,*Distance* 18.8km.,,noun
+westlich,"westerly, western",In *westlicher* Richtung sanft ansteigend.,Gently ascending in a *westerly* direction.,Opposite: östlich,adjective
+"der Kontakt, -e",contact,Kein Blankeis-*Kontakt* auf dem Gletscher.,No bare ice *contact* on the glacier.,,noun
+gedeckelt,"crusted (snow), capped",Leicht *gedeckelter* Pulver bis ca. 2800m.,Slightly *crusted* powder to approx. 2800m.,Snow term: thin crust over powder,adjective alpine
+"der Ski, -er",ski,Die *Skis* blieben auf ca. 3060m stehen.,The *skis* came to a stop at approx. 3060m.,Plural: Skier or Skis,noun alpine
+"die Erfrischungspause, -n",refreshment break,Nach kurzer *Erfrischungspause* brachen wir auf.,After a short *refreshment break* we set off.,Compound: Erfrischung + Pause,noun compound sustenhorn
+"die Erfrischung, -en",refreshment,Nach kurzer *Erfrischungs*pause brachen wir auf.,After a short *refreshment* break we set off.,,noun
+bestens,"very well, excellently, at best",Monte Rosa war *bestens* zu sehen.,Monte Rosa could be seen *very well*.,Superlative of gut,adverb
+"der Gipfelgrat, -e",summit ridge,Problemlos auf den breiten *Gipfelgrat*.,Easily up to the broad *summit ridge*.,Compound: Gipfel + Grat,noun compound alpine sustenhorn
+"die Aufstiegsspur, -en","ascent track, skin track",Entlang der *Aufstiegsspuren* abgefahren.,Descended along the *ascent tracks*.,Compound: Aufstieg + Spur,noun compound alpine
+sein,to be,Um 14.30 Uhr *sind* wir unten im Tal.,At 14:30 we *are* down in the valley.,"Irregular: bin, bist, ist, sind, seid, sind. Past: war, gewesen",verb irregular
+haben,"to have, to possess",*Hatten* tiefen Powder bis hinunter nach Riemenstalden.,*Had* deep powder all the way down to Riemenstalden.,"Irregular: habe, hast, hat. Past: hatte, gehabt",verb irregular
+werden,"to become, to get",Dann *wird* es etwas enger.,Then it *gets* somewhat narrower.,"Irregular: wurde, ist geworden. Also auxiliary for passive/future",verb irregular
+müssen,"must, to have to",Der beste Durchschlupf *muss* gesucht werden.,The best passage *must* be found.,"Modal verb: muss, musst, muss, müssen",verb irregular modal
+wollen,to want,*Wollten* eigentlich direkt auf den Hagelstock.,*Wanted* to go directly to the Hagelstock.,"Modal verb: will, willst, will, wollen. Past: wollte",verb irregular modal
+machen,"to make, to do",Die am meisten *gemachte* Skitour im Gebiet.,The most frequently *done* ski tour in the area.,Regular. Past participle: gemacht,verb
+fahren,"to drive, to go (by vehicle)",Die Bahn *fährt* ab 06.00 Uhr morgens.,The cable car *runs* from 06:00 in the morning.,"Irregular: fährt, fuhr, ist gefahren",verb irregular
+bringen,"to bring, to take",Den Gipfelhang schnell unter uns *gebracht*.,Quickly got the summit slope behind (*brought* under) us.,"Irregular: brachte, hat gebracht",verb irregular
+suchen,"to search, to look for",Der beste Durchschlupf muss *gesucht* werden.,The best passage must be *found* (lit. *searched* for).,,verb
+folgen,to follow,Den Spuren *folgend* ohne Probleme bis auf den Gipfel.,*Following* the tracks without problems to the summit.,+ dative: er folgt dem Weg,verb
+entscheiden,to decide,Wir *entschieden* uns kurzerhand für den Spilauerstock.,We *decided* on the spot to go for the Spilauerstock.,"Irregular: entschied, hat entschieden. Reflexive: sich entscheiden",verb irregular
+aufstehen,"to get up, to stand up",Am Wochenende lohnt es sich früh *aufzustehen*.,On weekends it's worth *getting up* early.,"Separable: er steht auf. Irregular: stand auf, ist aufgestanden",verb irregular separable
+spuren,"to break trail, to make tracks",Kurz auf den Spilauerstock hinauf*spuren*.,Quickly *break trail* up to the Spilauerstock.,Ski touring term: to be first up a slope and create tracks,verb alpine
+anfellen,to put on climbing skins,Hinunter zum Schmalstöckli und *anfellen*.,Down to the Schmalstöckli and *put on skins*.,Separable: er fellt an. From: das Fell (climbing skin),verb separable alpine
+traversieren,"to traverse, to cross",In NE-Richtung zum Schnüerstock *traversieren*.,*Traverse* in a NE direction to the Schnüerstock.,,verb alpine
+empfehlen,to recommend,Eine *empfohlene* Abfahrtsvariante nach Chäppeliberg.,A *recommended* descent variant to Chäppeliberg.,"Irregular: empfiehlt, empfahl, hat empfohlen",verb irregular
+ausführen,"to carry out, to execute",Sehr oft *ausgeführte* lohnende Skitour.,Very often *undertaken* rewarding ski tour.,Separable: er führt aus,verb separable
+ab,"from, starting from, as of",Die Bahn fährt *ab* 06.00 Uhr morgens.,The cable car runs *from* 06:00 in the morning.,Preposition + dative. Also separable verb prefix,preposition
+also,"so, therefore, well then",*Also* alles dem Grat entlang in östlicher Richtung.,*So* everything along the ridge in an easterly direction.,,conjunction
+alles,"everything, all of it",Also *alles* dem Grat entlang.,So *everything* along the ridge.,,pronoun
+es,it,Am Wochenende lohnt *es* sich früh aufzustehen.,On weekends *it* is worth getting up early.,,pronoun
+jedoch,"however, yet, but",Wollten direkt auf den Hagelstock *jedoch* entschieden wir uns für den Spilauerstock.,Wanted to go to the Hagelstock *however* we decided on the Spilauerstock.,,conjunction
+ohne,without,Den Spuren folgend *ohne* Probleme bis auf den Gipfel.,Following the tracks *without* problems to the summit.,Preposition + accusative,preposition
+unter,"under, below, beneath",Den Gipfelhang schnell *unter* uns gebracht.,Quickly got the summit slope *below* us.,Preposition + accusative/dative,preposition
+unten,"below, at the bottom, down",Um 14.30 Uhr sind wir *unten* im Tal.,At 14:30 we are *down* in the valley.,,adverb
+zwischen,"between, among",Der beste Durchschlupf *zwischen* den Felsen.,The best passage *between* the rocks.,Preposition + dative,preposition
+hinauf,"up, upward",Kurz auf den Spilauerstock *hinauf*spuren.,Quickly break trail *up* to the Spilauerstock.,Opposite: hinunter,adverb
+morgens,in the morning,Die Bahn fährt ab 06.00 Uhr *morgens*.,The cable car runs from 06:00 *in the morning*.,,adverb
+letzte,"last, final",Die *letzten* Meter dann zu Fuss.,The *last* meters then on foot.,,adjective
+einige,"some, a few, several",Mit *einigen* schweisstreibenden Kehren.,With *some* sweat-inducing switchbacks.,,pronoun
+östlich,"eastern, easterly",In *östlicher* Richtung bis an den Gipfelhang.,In an *easterly* direction to the summit slope.,Opposite: westlich,adjective
+pulvrig,powdery (snow),Nun *pulvrige* Abfahrt hinunter zum See.,Now a *powdery* descent down to the lake.,From: der Pulver (powder),adjective alpine
+kurzerhand,"on the spot, without hesitation",Wir entschieden uns *kurzerhand* für den Spilauerstock.,We decided *on the spot* to go for the Spilauerstock.,,adverb
+schweisstreibend,"sweat-inducing, strenuous",Mit einigen *schweisstreibenden* Kehren zum Gipfel.,With some *sweat-inducing* switchbacks to the summit.,Compound: Schweiss + treibend,adjective compound alpine
+prächtig,"magnificent, splendid, gorgeous",*Prächtige* Aussicht auf die W-Wand.,A *magnificent* view of the west wall.,,adjective
+eng,"narrow, tight",Dann wird es etwas *enger*.,Then it gets somewhat *narrower*.,,adjective
+toll,"great, awesome, fantastic",Immer noch *tolle* Abfahrt inklusive Schanzegumpe!,Still a *great* descent including jump bumps!,,adjective
+ausgiebig,"extensive, thorough, hearty",Eine *ausgiebige* Pause im Gasthof.,A *hearty* break at the inn.,,adjective
+tief,"deep, low",*Tiefen* Powder bis hinunter nach Riemenstalden.,*Deep* powder all the way down to Riemenstalden.,,adjective
+genussvoll,"enjoyable, delightful",Nun *genussvolle* Abfahrt über weite Hänge.,Now a *delightful* descent over wide slopes.,From: der Genuss (enjoyment),adjective
+weit,"wide, vast, far",Abfahrt über *weite* offene Hänge.,Descent over *wide* open slopes.,,adjective
+inklusive,"including, inclusive of",Tolle Abfahrt *inklusive* Schanzegumpe!,Great descent *including* jump bumps!,Abbreviation: inkl.,preposition
+"die Seilbahn, -en","cable car, aerial tramway",Mit der *Seilbahn* von Chäppeliberg nach Gitschen.,By *cable car* from Chäppeliberg to Gitschen.,Compound: Seil + Bahn,noun compound alpine
+"die Bahn, -en","railway, cable car, train",Die *Bahn* fährt ab 06.00 Uhr morgens.,The *cable car* runs from 06:00 in the morning.,,noun
+"der Morgen, -",morning,Am Wochenende lohnt es sich früh am *Morgen* aufzustehen.,On weekends it's worth getting up early in the *morning*.,morgens = in the morning,noun
+"das Wochenende, -n",weekend,Am *Wochenende* lohnt es sich früh aufzustehen.,On *weekends* it's worth getting up early.,Compound: Woche + Ende,noun compound
+"die Woche, -n",week,Am *Wochen*ende lohnt es sich früh aufzustehen.,On *week*ends it's worth getting up early.,,noun
+"das Gebiet, -e","area, region, territory",Die am meisten gemachte Skitour im *Gebiet*.,The most frequently done ski tour in the *area*.,,noun
+"das Problem, -e","problem, issue",Den Spuren folgend ohne *Probleme* bis auf den Gipfel.,Following the tracks without *problems* to the summit.,,noun
+"die Kehre, -n","switchback, hairpin turn",Mit einigen schweisstreibenden *Kehren* zum Gipfel.,With some sweat-inducing *switchbacks* to the summit.,,noun alpine
+"das Kreuz, -e",cross,Die letzten Meter zu Fuss bis zum Gipfel*kreuz*.,The last meters on foot to the summit *cross*.,,noun
+"das Gipfelkreuz, -e",summit cross,Die letzten Meter zu Fuss bis zum *Gipfelkreuz*.,The last meters on foot to the *summit cross*.,Compound: Gipfel + Kreuz,noun compound alpine
+"die Aussicht, -en","view, outlook, prospect",*Prächtige* Aussicht auf die W-Wand.,Magnificent *view* of the west wall.,,noun
+"die Masse, -n","mass, crowd",Die *Massen* auf dem Gipfel.,The *crowds* at the summit.,,noun
+"der Gipfelhang, Gipfelhänge",summit slope,Vor allem der steile *Gipfelhang* hat gerockt!,Especially the steep *summit slope* was awesome!,Compound: Gipfel + Hang,noun compound alpine
+"der Durchschlupf, Durchschlüpfe","gap, passage, way through",Der beste *Durchschlupf* zwischen den Felsen.,The best *passage* between the rocks.,,noun alpine
+"der Wald, Wälder","forest, woods",Via Färnen*wald* zurück nach Chäppeliberg.,Via Färnen *forest* back to Chäppeliberg.,,noun
+"das Holz, Hölzer","wood, timber",Via Färnenwald (*Holz*hackerei) zurück.,Via Färnenwald (*wood*cutting) back.,,noun
+"das Pferd, -e",horse,Via Cher (*Pferde*stall) zurück nach Chäppeliberg.,Via Cher (*horse* stable) back to Chäppeliberg.,,noun
+"der Stall, Ställe","stable, barn",Via Cher (Pferde*stall*) zurück nach Chäppeliberg.,Via Cher (horse *stable*) back to Chäppeliberg.,,noun
+"der Pferdestall, Pferdeställe",horse stable,Via Cher (*Pferdestall*) zurück nach Chäppeliberg.,Via Cher (*horse stable*) back to Chäppeliberg.,Compound: Pferd + Stall,noun compound
+"der Gasthof, Gasthöfe","inn, guesthouse",Eine ausgiebige Pause im *Gasthof* in Riemenstalden.,A hearty break at the *inn* in Riemenstalden.,,noun
+"die Variante, -n","variant, alternative",Eine empfohlene Abfahrts*variante* nach Chäppeliberg.,A recommended descent *variant* to Chäppeliberg.,,noun
+"die Abfahrtsvariante, -n","descent variant, alternative descent",Eine empfohlene *Abfahrtsvariante* nach Chäppeliberg.,A recommended *descent variant* to Chäppeliberg.,Compound: Abfahrt + Variante,noun compound alpine
+"die Seite, -n","side, page",Zum Schnüerstock (E-*Seite*) traversieren.,Traverse to the Schnüerstock (E *side*).,,noun
+"der Genuss, Genüsse","enjoyment, pleasure, treat",Nun *genuss*volle Abfahrt über weite Hänge.,Now an *enjoyable* descent over wide slopes.,,noun
+"die Kombination, -en",combination,Besonders in *Kombination* mit dem Spilauerstock.,Especially in *combination* with the Spilauerstock.,,noun
+"die Schwierigkeit, -en","difficulty, problem",Lohnende Skitour ohne *Schwierigkeiten*.,Rewarding ski tour without *difficulties*.,,noun
+der Schweiss,"sweat, perspiration",Mit einigen *schweiss*treibenden Kehren zum Gipfel.,With some *sweat*-inducing switchbacks to the summit.,,noun
+"die Mode, -n","fashion, trend",Der Rossstock — die *Mode*tour schlechthin.,The Rossstock — the *trendy* tour par excellence.,,noun
+"die Modetour, -en","trendy tour, fashionable tour",Der Rossstock — die *Modetour* schlechthin.,The Rossstock — *the* trendy *tour* par excellence.,Compound: Mode + Tour,noun compound
+"die Schanze, -n","jump, ski jump",Tolle Abfahrt inklusive *Schanze*gumpe!,Great descent including *jump* bumps!,,noun alpine
+"der Felsen, -","rock, rock face, cliff",Der beste Durchschlupf zwischen den *Felsen*.,The best passage between the *rocks*.,Similar to der Fels but used more for individual rock formations,noun alpine
+flacher,flatter (comparative),Dann leider etwas *flacher* zurück nach Chäppeliberg.,Then unfortunately somewhat *flatter* back to Chäppeliberg.,Comparative of flach,adjective
+"der Freitag, -e",Friday,*Freitag* 06.04.2007: Anreise auf das Jungfraujoch.,*Friday* 06.04.2007: Journey to the Jungfraujoch.,,noun
+"der Samstag, -e",Saturday,*Samstag* 07.04.2007: Finsteraarhorn 4274m.,*Saturday* 07.04.2007: Finsteraarhorn 4274m.,,noun
+"der Sonntag, -e",Sunday,*Sonntag* 08.04.2007: Gross Wannenhorn und Vorder Galmihorn.,*Sunday* 08.04.2007: Gross Wannenhorn and Vorder Galmihorn.,,noun
+nehmen,to take,Den Pickel zur Hand *genommen*.,*Took* the ice axe in hand.,"Irregular: nimmt, nahm, hat genommen",verb irregular
+lassen,"to let, to leave, to allow",Nun *lassen* wirs uns gut gehen.,Now *let's* enjoy ourselves.,"Irregular: lässt, liess, hat gelassen",verb irregular
+tragen,"to carry, to wear",Die Skis mussten *getragen* werden.,The skis had to be *carried*.,"Irregular: trägt, trug, hat getragen",verb irregular
+liegen,"to lie, to be situated",Der Aufstieg *lag* im Schatten.,The ascent *lay* in the shade.,"Irregular: lag, hat gelegen",verb irregular
+geniessen,to enjoy,Das Panorama nur kurz *genossen*.,Only briefly *enjoyed* the panorama.,"Irregular: genoss, hat genossen",verb irregular
+beschliessen,"to decide, to resolve",Wir hatten *beschlossen* umzukehren.,We had *decided* to turn back.,"Irregular: beschloss, hat beschlossen",verb irregular
+umkehren,"to turn back, to reverse",Wir hatten beschlossen *umzukehren*.,We had decided to *turn back*.,Separable: er kehrt um,verb separable alpine
+passieren,"to pass, to cross, to happen",Die Schutzwälle hatten wir *passiert*.,We had *passed* the protective walls.,,verb
+schnallen,"to buckle, to strap",Die Skis unter die Füsse *geschnallt*.,*Strapped* the skis on our feet.,anschnallen = to strap on; abschränzen (Swiss) = to take off,verb alpine
+verdienen,"to earn, to deserve",Das Panaché musste *verdient* werden.,The shandy had to be *earned*.,,verb
+trocknen,to dry,Wir *trocknen* unsere Sachen auf der Terrasse.,We *dry* our things on the terrace.,,verb
+füllen,to fill,Wir *füllen* unsere Mägen.,We *fill* our stomachs.,,verb
+sorgen,"to ensure, to provide, to cause",Die Sonne *sorgte* für angenehme Temperaturen.,The sun *provided* pleasant temperatures.,sorgen für = to provide/ensure,verb
+wirken,"to have an effect, to work",Die Eindrücke auf uns *wirken* lassen.,*Let* the impressions *sink in* (lit. have an effect on us).,,verb
+erfrischen,to refresh,Wir *erfrischen* uns an einem Panaché.,We *refresh* ourselves with a shandy.,Related: die Erfrischung,verb
+überwinden,"to overcome, to surmount",Es gibt einige Kletterstellen zu *überwinden*.,There are some climbing spots to *overcome*.,"Irregular: überwand, hat überwunden",verb irregular alpine
+erklettern,to climb (to the top of),Der Gipfel müsste *erklettert* werden.,The summit would have to be *climbed*.,,verb alpine
+aufsteigen,"to climb up, to ascend",Über den Grüneggfirn zur Lücke *aufgestiegen*.,*Climbed up* via the Grüneggfirn to the pass.,"Separable: er steigt auf. Irregular: stieg auf, ist aufgestiegen",verb irregular separable alpine
+hochsteigen,"to climb up, to go up",Über die steile N-Flanke *hochsteigen*.,*Climb up* the steep north face.,"Separable: er steigt hoch. Irregular: stieg hoch, ist hochgestiegen",verb irregular separable alpine
+gelangen,"to reach, to arrive at, to get to",So *gelangen* wir auf die Schulter.,Thus we *reach* the shoulder.,,verb
+hochziehen,to pull up; to rise steeply (of a ridge),Der Grat *zieht* scharf zum Gipfel *hoch*.,The ridge *rises* steeply to the summit.,Separable: er zieht hoch,verb separable alpine
+überqueren,to cross (over),Wir *überquerten* den Reckingerbach.,We *crossed* the Reckingerbach.,,verb
+scheinen,"to seem, to appear; to shine",Das Jungfraujoch *scheint* den Chinesen zu gehören.,The Jungfraujoch *seems* to belong to the Chinese.,"Irregular: schien, hat geschienen",verb irregular
+gehören,to belong to,Das Jungfraujoch scheint den Chinesen zu *gehören*.,The Jungfraujoch seems to *belong* to the Chinese.,+ dative,verb
+merken,"to notice, to realize",Man *merkte* kaum dass sie ausgebucht war.,You hardly *noticed* that it was fully booked.,,verb
+"die Hand, Hände",hand,Den Pickel zur *Hand* genommen.,Took the ice axe in *hand*.,,noun
+"der Fuss, Füsse",foot,Die Skis unter die *Füsse* geschnallt.,Strapped the skis on our *feet*.,Plural: Füsse (irregular),noun
+"der Gast, Gäste",guest,Fotoshooting mit den spendablen *Gästen*.,Photo shoot with the generous *guests*.,,noun
+"der Schatten, -","shadow, shade",Der Aufstieg lag im *Schatten*.,The ascent lay in the *shade*.,,noun
+"die Temperatur, -en",temperature,Die Sonne sorgte für angenehme *Temperaturen*.,The sun provided pleasant *temperatures*.,,noun
+"das Brot, -e","bread, sandwich",Genüsslich verzehren wir unsere *Brote*.,We leisurely eat our *sandwiches*.,,noun
+"das Bett, -en",bed,Zudem sehr breite *Betten*.,And also very wide *beds*.,,noun
+"der Preis, -e","price, prize",*Preis* für SAC-Mitglieder CHF 65.-.,*Price* for SAC members CHF 65.-.,,noun
+"der Bahnhof, Bahnhöfe","train station, railway station",Um 16:25 Uhr erreichen wir den *Bahnhof*.,At 16:25 we reach the *train station*.,Compound: Bahn + Hof,noun compound
+"der Hof, Höfe","yard, courtyard, farm",Um 16:25 Uhr erreichen wir den Bahn*hof*.,At 16:25 we reach the train station (lit. railway *yard*).,,noun
+"die Reise, -n","journey, trip, travel",*Heim*reise mit dem Zug.,Journey *home* by train.,,noun
+"die Anreise, -n","journey there, arrival trip",*Anreise* mit ÖV auf das Jungfraujoch.,*Journey* by public transport to the Jungfraujoch.,Compound: an + Reise,noun compound
+"die Heimreise, -n","journey home, return trip",*Heimreise* nach dem letzten Gipfel.,*Journey home* after the last summit.,Compound: Heim + Reise,noun compound
+"das Heim, -e",home,*Heim*reise nach dem letzten Gipfel.,Journey *home* after the last summit.,,noun
+die Hitze,"heat, hot weather",Bei praller Sonne und dieser Affen*hitze*.,In blazing sun and this sweltering *heat*.,,noun
+"der Magen, Mägen",stomach,Wir füllen unsere *Mägen*.,We fill our *stomachs*.,Plural: Mägen (irregular),noun
+"die Terrasse, -n",terrace,Wir geniessen das Panorama auf der *Terrasse*.,We enjoy the panorama on the *terrace*.,,noun
+"die Sache, -n","thing, matter",Wir trocknen unsere *Sachen*.,We dry our *things*.,,noun
+"das Risiko, Risiken","risk, danger",Dieses *Risiko* wollten wir nicht eingehen.,We didn't want to take this *risk*.,,noun
+"die Lücke, -n","gap, pass (alpine)",Von der *Lücke* weiter über den Gletscher.,From the *pass* onward over the glacier.,In alpine context: a gap/pass between peaks,noun alpine
+"der Gegenanstieg, -e","counter-climb, short ascent",Das Panaché musste mit einem *Gegenanstieg* verdient werden.,The shandy had to be earned with a *counter-climb*.,Compound: gegen + Anstieg,noun compound alpine
+der Harsch,hard crusted snow,Felle und *Harsch*eisen montiert.,Skins and *hard snow* crampons mounted.,Alpine term: frozen/crusted snow surface,noun alpine
+"das Harscheisen, -",crampon (for hard snow),Felle und *Harscheisen* montiert.,Skins and *crampons* mounted.,Compound: Harsch + Eisen. Attached to ski bindings for icy skin tracks,noun compound alpine
+"die Spitzkehre, -n",kick turn (ski touring),Den Firnhang in unzähligen *Spitzkehren* steil empor.,Steeply up the firn slope in countless *kick turns*.,Compound: spitz + Kehre,noun compound alpine
+der Trittfirn,firm stepping firn,Oben dann aber bester *Trittfirn*.,Up top then the best *firm stepping firn*.,Compound: Tritt + Firn. Snow firm enough to step on without sinking,noun compound alpine
+"der Tritt, -e","step, footstep, kick",Oben bester *Tritt*firn.,Up top the best *step*ping firn.,,noun
+"die Spurarbeit, -en",trail-breaking work,Unten leider schweisstreibende *Spurarbeit*.,Below unfortunately sweat-inducing *trail-breaking work*.,Compound: Spur + Arbeit,noun compound alpine
+"die Arbeit, -en","work, job",Unten schweisstreibende Spur*arbeit*.,Below sweat-inducing trail-breaking *work*.,,noun
+"die Tragpassage, -n",carrying passage (skis on pack),Ein kleiner Übergang (*Tragpassage*) im SW-Grat.,A small transition (*carrying passage*) in the SW ridge.,Compound: tragen + Passage. Section where skis must be carried,noun compound alpine
+"die Passage, -n","passage, section",Ein kleiner Übergang (Trag*passage*) im SW-Grat.,A small transition (carrying *passage*) in the SW ridge.,,noun
+"die Kletterstelle, -n","climbing spot, climbing section",Es gibt einige *Kletterstellen* zu überwinden.,There are some *climbing sections* to overcome.,Compound: klettern + Stelle,noun compound alpine
+"der Gendarm, -en",gendarme (rock tower on a ridge),Es gibt einen *Gendarmen* ab- resp. hochzuklettern.,There is a *gendarme* to climb down/up.,Alpine term: a rock tower on a ridge that must be climbed over,noun alpine
+"der Zacken, -","spike, point, jag",Das Seil kann um *Zacken* geführt werden.,The rope can be run around rock *spikes*.,,noun alpine
+"die Zwischensicherung, -en",intermediate protection,Das Seil kann um Zacken geführt werden (*Zwischensicherungen*).,The rope can be run around spikes (*intermediate protection*).,Compound: zwischen + Sicherung,noun compound alpine
+"die Sicherung, -en","protection, belay, fuse",Es muss gut ge*sichert* werden.,It must be well *protected*.,,noun alpine
+"die Rippe, -n","rib, spur (alpine)",Am Ausläufer der NE-*Rippe* des Gross Wannenhorns.,At the spur of the NE *rib* of the Gross Wannenhorn.,Alpine term: a protruding rock/snow rib on a mountain face,noun alpine
+"der Ausläufer, -","spur, foothills, tail end",Am *Ausläufer* der NE-Rippe.,At the *spur* of the NE rib.,,noun alpine
+"der Gegensatz, Gegensätze","contrast, opposite",Im *Gegensatz* zum Finsteraarhorn erreicht uns hier die Sonne.,In *contrast* to the Finsteraarhorn the sun reaches us here.,im Gegensatz zu = in contrast to,noun
+"der Zusammenfluss, Zusammenflüsse",confluence,Am *Zusammenfluss* von Fieschergletscher und Galmigletscher.,At the *confluence* of the Fiescher and Galmi glaciers.,Compound: zusammen + Fluss,noun compound
+"der Fluss, Flüsse","river, flow",Am Zusammen*fluss* der beiden Gletscher.,At the con*fluence* of the two glaciers.,,noun
+zusammen,together,Am *Zusammen*fluss der beiden Gletscher.,At the confluence (lit. *together* flow) of the two glaciers.,,adverb
+"der Schutzwall, Schutzwälle","protective wall, barrier",Die beiden riesigen *Schutzwälle* passiert.,Passed the two huge *protective walls*.,Compound: Schutz + Wall,noun compound
+der Schutz,"protection, shelter",Die beiden riesigen *Schutz*wälle passiert.,Passed the two huge *protective* walls.,,noun
+"die Strasse, -n","street, road",Weiter auf der Alp*strasse*.,Onward on the alpine *road*.,,noun
+"die Ankunft, Ankünfte",arrival,*Ankunft* kurz nach 14:00 Uhr.,*Arrival* shortly after 14:00.,,noun
+"das Frühstück, -e",breakfast,Bis zum *Frühstücks*platz auf 3616m.,To the *breakfast* spot at 3616m.,,noun
+"das Mitglied, -er",member,Preis für SAC-*Mitglieder* CHF 65.-.,Price for SAC *members* CHF 65.-.,,noun
+"die Übernachtung, -en",overnight stay,*Übernachtung* mit Halbpension CHF 65.-.,*Overnight stay* with half board CHF 65.-.,Related: übernachten,noun
+die Verpflegung,"provisions, food, catering",Erstklassige *Verpflegung* in der Hütte.,First-class *food* at the hut.,,noun
+das Gepäck,"luggage, gear, baggage",Viel Stauraum für *Gepäck*.,Lots of storage space for *luggage*.,,noun
+der Mut,"courage, spirit",Frohen *Mutes* losmarschiert.,Set off in good *spirits*.,,noun
+"der Schwung, Schwünge","momentum, swing, verve",Mit viel *Schwung* den Gletscher gequert.,Crossed the glacier with lots of *momentum*.,,noun alpine
+"der Eindruck, Eindrücke",impression,Die Knaller*eindrücke* auf uns wirken lassen.,Let the amazing *impressions* sink in.,,noun
+neu,new,Die *neue* Finsteraarhornhütte ist super komfortabel.,The *new* Finsteraarhornhütte is super comfortable.,,adjective
+hoch,"high, tall, up",Ziemlich steil auf den Sattel *hoch*.,Quite steeply *up* to the saddle.,Comparative: höher. Superlative: höchst-,adjective
+jetzt,"now, at this moment",*Jetzt* durchgehend steil abgefahren.,*Now* descended continuously steeply.,,adverb
+denn,"because, for, then",Auch hier gibts Kletterstellen *denn* auch hier muss gesichert werden.,Here too there are climbing spots *because* here too one must belay.,,conjunction
+gegen,"toward, against, around (time)",Hinunter *gegen* den Frühstücksplatz.,Down *toward* the breakfast spot.,Preposition + accusative,preposition
+sondern,"but rather, but instead",Nicht bis ganz hinunter *sondern* etwas oberhalb abgefahren.,Not all the way down *but rather* descended somewhat above.,,conjunction
+endlich,"finally, at last",Hier nun *endlich* Sonne.,Here *finally* sun.,,adverb
+wirklich,"really, truly",Das war *wirklich* der Oberknaller!,That was *really* the absolute highlight!,,adverb
+beide,both,Die *beiden* riesigen Schutzwälle.,The *two* (both) huge protective walls.,,pronoun
+nah,"near, close",Beim *nahen* Gasthof.,At the *nearby* inn.,Irregular: nah/nahe/näher/nächst-,adjective
+glücklich,"happy, fortunate",Sehr *glücklich* über den reibungslosen Aufstieg.,Very *happy* about the smooth ascent.,,adjective
+froh,"happy, glad, cheerful",*Frohen* Mutes losmarschiert.,Set off in *good* (glad) spirits.,,adjective
+anstrengend,"exhausting, strenuous",Das war ziemlich *anstrengend*.,That was quite *exhausting*.,,adjective
+erschöpft,"exhausted, worn out",Ziemlich *erschöpft* aber glücklich.,Quite *exhausted* but happy.,,adjective
+riesig,"huge, enormous, gigantic",Die *riesigen* Schutzwälle.,The *huge* protective walls.,,adjective
+weich,soft,Der Schnee dann sehr *weich* und vorsichtig zu befahren.,The snow then very *soft* and to be skied carefully.,,adjective
+vorsichtig,"careful, cautious",Der Schnee sehr weich und *vorsichtig* zu befahren.,The snow very soft and to be skied *carefully*.,,adjective adverb
+lecker,"delicious, tasty",Ein *leckeres* Panaché beim Gasthof.,A *delicious* shandy at the inn.,,adjective
+nett,"nice, friendly, kind",Super *nettes* Team und tolle Bewirtung.,Super *nice* team and great service.,,adjective
+solide,"solid, sturdy",Der Fels zudem meist sehr *solide*.,The rock moreover mostly very *solid*.,,adjective
+schmal,"narrow, slim",Eine *schmale* und verwächtete Stelle.,A *narrow* and corniced spot.,,adjective
+oberhalb,"above, higher up",Etwas *oberhalb* nach W abgefahren.,Descended somewhat *above* to the west.,Opposite: unterhalb. Preposition + genitive,preposition
+anfangs,"initially, at first",Der Schnee *anfangs* ziemlich hart.,The snow *initially* quite hard.,,adverb
+erneut,"again, once more, anew",Zum Schluss *erneut* ziemlich steil.,At the end *again* quite steep.,,adverb
+gänzlich,"entirely, completely",Das Jungfraujoch *gänzlich* den Chinesen gehörend.,The Jungfraujoch *entirely* belonging to the Chinese.,,adverb
+äusserst,"extremely, exceedingly",Eine *äusserst* exponierte Stelle.,An *extremely* exposed spot.,,adverb
+unzählig,"countless, innumerable",In *unzähligen* Spitzkehren steil empor.,Steeply up in *countless* kick turns.,,adjective
+empor,"upward, up",In unzähligen Spitzkehren steil *empor*.,Steeply *up* in countless kick turns.,Literary/elevated synonym for hinauf,adverb
+durchgehend,"continuously, without interruption",*Durchgehend* steil abgefahren.,Descended *continuously* steeply.,,adverb adjective
+genüsslich,"leisurely, with relish",*Genüsslich* verzehren wir unsere Brote.,We *leisurely* eat our sandwiches.,,adverb
+spitz,"pointed, sharp",In unzähligen *Spitz*kehren steil empor.,Steeply up in countless kick turns (lit. *sharp* turns).,,adjective
+reibungslos,"smooth, without friction",Sehr glücklich über den *reibungslosen* Aufstieg.,Very happy about the *smooth* ascent.,,adjective
+verwächtet,corniced (alpine),Eine schmale und *verwächtete* Stelle.,A narrow and *corniced* spot.,Alpine term: overhanging snow formation on a ridge,adjective alpine
+frostig,"frosty, freezing",Es war ziemlich *frostig* (-8° C).,It was quite *frosty* (-8° C).,,adjective
+ruppig,"rough, bumpy, coarse",Ziemlich *ruppig* weiter das Tal abgefahren.,Descended the valley rather *roughly*.,,adjective
+aufgesulzt,"turned to corn snow, softened",Der Schnee leider noch nicht ganz *aufgesulzt*.,The snow unfortunately not yet fully *turned to corn snow*.,From: der Sulz (slush). When snow softens in spring sun,adjective alpine
+komfortabel,"comfortable, luxurious",Die Hütte ist super *komfortabel*.,The hut is super *comfortable*.,,adjective
+durchdacht,"well-thought-out, cleverly designed",Super komfortabel und *durchdacht* konstruiert.,Super comfortable and *cleverly designed*.,,adjective
+erstklassig,"first-class, excellent",*Erstklassige* Verpflegung.,*First-class* food.,Compound: erst + klassig,adjective
+grosszügig,"generous, spacious",*Grosszügige* Schlafräume.,*Spacious* sleeping rooms.,,adjective
+vorhanden,"available, present, existing",Satellitentelefon *vorhanden*.,Satellite phone *available*.,,adjective
+ausgebucht,"fully booked, sold out",Die Hütte war *ausgebucht*.,The hut was *fully booked*.,,adjective
+südlich,"southern, southerly",In *südlicher* Richtung abgefahren.,Descended in a *southerly* direction.,Opposite: nördlich,adjective
+nordöstlich,northeastern,In *nordöstlicher* Richtung gequert.,Crossed in a *northeastern* direction.,,adjective
+südwestlich,southwestern,In *südwestlicher* Richtung hochgestiegen.,Climbed up in a *southwestern* direction.,,adjective
+vorbei,"past, over, by",Nördlich von Pkt. 3160m *vorbei*.,Past (*by*) point 3160m to the north.,,adverb
+sogleich,"immediately, at once",Die Sonne *sogleich* für angenehme Temperaturen sorgte.,The sun *immediately* provided pleasant temperatures.,,adverb
+bisherig,"previous, so far, up to now",Der *bisherige* Aufstieg lag im Schatten.,The ascent *so far* lay in the shade.,,adjective
+unwesentlich,"insignificant, marginal, slightly",Der Abstieg nur *unwesentlich* kürzer.,The descent only *marginally* shorter.,,adjective adverb
+obligatorisch,"obligatory, mandatory",Nach dem *obligatorischen* Fotoshooting.,After the *obligatory* photo shoot.,,adjective
+spendabel,"generous, open-handed",Fotoshooting mit den *spendablen* Gästen.,Photo shoot with the *generous* guests.,,adjective
