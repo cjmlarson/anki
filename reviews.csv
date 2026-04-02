@@ -21,6 +21,8 @@ am,"at the, on the (contraction)",DE→EN,0,0,497,0,0,0,0
 am,"at the, on the (contraction)",EN→DE,0,0,497,0,0,0,0
 an,"at, on, to",DE→EN,0,0,491,0,0,0,0
 an,"at, on, to",EN→DE,0,0,491,0,0,0,0
+andere,"other, different",DE→EN,0,0,833,0,0,0,0
+andere,"other, different",EN→DE,0,0,833,0,0,0,0
 anfangs,"initially, at first",DE→EN,0,0,722,0,0,0,0
 anfangs,"initially, at first",EN→DE,0,0,722,0,0,0,0
 anfellen,to put on climbing skins,DE→EN,0,0,529,0,0,0,0
@@ -37,6 +39,8 @@ ansteigen,"to ascend, to rise, to go uphill",DE→EN,0,0,304,0,0,0,0
 ansteigen,"to ascend, to rise, to go uphill",EN→DE,0,0,304,0,0,0,0
 anstrengend,"exhausting, strenuous",DE→EN,0,0,712,0,0,0,0
 anstrengend,"exhausting, strenuous",EN→DE,0,0,712,0,0,0,0
+atemlos,"breathless, out of breath",DE→EN,0,0,807,0,0,0,0
+atemlos,"breathless, out of breath",EN→DE,0,0,807,0,0,0,0
 auch,"also, too, as well",DE→EN,0,0,399,0,0,0,0
 auch,"also, too, as well",EN→DE,0,0,399,0,0,0,0
 auf,"on, onto, upon",DE→EN,0,0,384,0,0,0,0
@@ -65,6 +69,8 @@ auslösen,"to trigger, to set off",DE→EN,0,0,360,0,0,0,0
 auslösen,"to trigger, to set off",EN→DE,0,0,360,0,0,0,0
 aussuchen,"to choose, to pick out",DE→EN,0,0,479,0,0,0,0
 aussuchen,"to choose, to pick out",EN→DE,0,0,479,0,0,0,0
+backen,to bake,DE→EN,0,0,789,0,0,0,0
+backen,to bake,EN→DE,0,0,789,0,0,0,0
 bald,soon,DE→EN,0,0,436,0,0,0,0
 bald,soon,EN→DE,0,0,436,0,0,0,0
 bedeuten,"to mean, to signify",DE→EN,0,0,302,0,0,0,0
@@ -85,6 +91,8 @@ beidemal,both times,DE→EN,0,0,317,0,0,0,0
 beidemal,both times,EN→DE,0,0,317,0,0,0,0
 beim,at the (contraction),DE→EN,0,0,501,0,0,0,0
 beim,at the (contraction),EN→DE,0,0,501,0,0,0,0
+beinahe,"almost, nearly",DE→EN,0,0,820,0,0,0,0
+beinahe,"almost, nearly",EN→DE,0,0,820,0,0,0,0
 bereits,already,DE→EN,0,0,421,0,0,0,0
 bereits,already,EN→DE,0,0,421,0,0,0,0
 beschliessen,"to decide, to resolve",DE→EN,0,0,627,0,0,0,0
@@ -95,6 +103,8 @@ besser,better,DE→EN,0,0,480,0,0,0,0
 besser,better,EN→DE,0,0,480,0,0,0,0
 bestens,"very well, excellently, at best",DE→EN,0,0,513,0,0,0,0
 bestens,"very well, excellently, at best",EN→DE,0,0,513,0,0,0,0
+bewältigen,"to cope with, to manage, to master",DE→EN,0,0,792,0,0,0,0
+bewältigen,"to cope with, to manage, to master",EN→DE,0,0,792,0,0,0,0
 bis,"until, to, up to",DE→EN,0,0,470,0,0,0,0
 bis,"until, to, up to",EN→DE,0,0,470,0,0,0,0
 bisherig,"previous, so far, up to now",DE→EN,0,0,747,0,0,0,0
@@ -103,6 +113,8 @@ blank,"bare, exposed, shiny",DE→EN,0,0,436,0,0,0,0
 blank,"bare, exposed, shiny",EN→DE,0,0,436,0,0,0,0
 bleiben,"to stay, to remain",DE→EN,0,0,470,0,0,0,0
 bleiben,"to stay, to remain",EN→DE,0,0,470,0,0,0,0
+brauchen,"to need, to require",DE→EN,0,0,786,0,0,0,0
+brauchen,"to need, to require",EN→DE,0,0,786,0,0,0,0
 breit,"wide, broad",DE→EN,0,0,456,0,0,0,0
 breit,"wide, broad",EN→DE,0,0,456,0,0,0,0
 bringen,"to bring, to take",DE→EN,0,0,523,0,0,0,0
@@ -121,6 +133,8 @@ das,the (neuter),EN→DE,0,0,464,0,0,0,0
 "das Becken, -","basin, bowl",EN→DE,0,0,426,0,0,0,0
 "das Bett, -en",bed,DE→EN,0,0,653,0,0,0,0
 "das Bett, -en",bed,EN→DE,0,0,653,0,0,0,0
+"das Bier, -e",beer,DE→EN,0,0,772,0,0,0,0
+"das Bier, -e",beer,EN→DE,0,0,772,0,0,0,0
 das Blankeis,"bare ice, exposed ice",DE→EN,0,0,435,0,0,0,0
 das Blankeis,"bare ice, exposed ice",EN→DE,0,0,435,0,0,0,0
 "das Brot, -e","bread, sandwich",DE→EN,0,0,652,0,0,0,0
@@ -141,8 +155,14 @@ das Eis,ice,EN→DE,0,0,434,0,0,0,0
 "das Ende, -n","end, finish",EN→DE,0,0,609,0,0,0,0
 "das Erlebnis, -se","experience, event",DE→EN,0,0,396,0,0,0,0
 "das Erlebnis, -se","experience, event",EN→DE,0,0,396,0,0,0,0
+"das Fazit, -e/-s","conclusion, bottom line",DE→EN,0,0,779,0,0,0,0
+"das Fazit, -e/-s","conclusion, bottom line",EN→DE,0,0,779,0,0,0,0
+"das Feld, -er",field,DE→EN,0,0,775,0,0,0,0
+"das Feld, -er",field,EN→DE,0,0,775,0,0,0,0
 "das Fell, -e",climbing skin (for ski touring),DE→EN,0,0,423,0,0,0,0
 "das Fell, -e",climbing skin (for ski touring),EN→DE,0,0,423,0,0,0,0
+"das Fixseil, -e",fixed rope,DE→EN,0,0,759,0,0,0,0
+"das Fixseil, -e",fixed rope,EN→DE,0,0,759,0,0,0,0
 "das Frühstück, -e",breakfast,DE→EN,0,0,692,0,0,0,0
 "das Frühstück, -e",breakfast,EN→DE,0,0,692,0,0,0,0
 "das Gebiet, -e","area, region, territory",DE→EN,0,0,563,0,0,0,0
@@ -187,20 +207,30 @@ das Gepäck,"luggage, gear, baggage",EN→DE,0,0,696,0,0,0,0
 "das Problem, -e","problem, issue",EN→DE,0,0,564,0,0,0,0
 "das Risiko, Risiken","risk, danger",DE→EN,0,0,665,0,0,0,0
 "das Risiko, Risiken","risk, danger",EN→DE,0,0,665,0,0,0,0
+"das Schneefeld, -er","snow field, snow patch",DE→EN,0,0,774,0,0,0,0
+"das Schneefeld, -er","snow field, snow patch",EN→DE,0,0,774,0,0,0,0
 "das Seil, -e",rope,DE→EN,0,0,409,0,0,0,0
 "das Seil, -e",rope,EN→DE,0,0,409,0,0,0,0
 "das Skidepot, -s","ski depot, place to leave skis",DE→EN,0,0,287,0,0,0,0
 "das Skidepot, -s","ski depot, place to leave skis",EN→DE,0,0,287,0,0,0,0
 "das Steigeisen, -",crampon,DE→EN,0,0,410,0,0,0,0
 "das Steigeisen, -",crampon,EN→DE,0,0,410,0,0,0,0
+"das Stück, -e","piece, section, bit",DE→EN,0,0,758,0,0,0,0
+"das Stück, -e","piece, section, bit",EN→DE,0,0,758,0,0,0,0
 "das Tal, Täler",valley,DE→EN,0,0,294,0,0,0,0
 "das Tal, Täler",valley,EN→DE,0,0,294,0,0,0,0
 "das Tourenbuch, -bücher",tour logbook,DE→EN,0,0,432,0,0,0,0
 "das Tourenbuch, -bücher",tour logbook,EN→DE,0,0,432,0,0,0,0
+das Trinkwasser,drinking water,DE→EN,0,0,765,0,0,0,0
+das Trinkwasser,drinking water,EN→DE,0,0,765,0,0,0,0
+das Wasser,water,DE→EN,0,0,764,0,0,0,0
+das Wasser,water,EN→DE,0,0,764,0,0,0,0
 das Wetter,weather,DE→EN,0,0,401,0,0,0,0
 das Wetter,weather,EN→DE,0,0,401,0,0,0,0
 "das Wochenende, -n",weekend,DE→EN,0,0,561,0,0,0,0
 "das Wochenende, -n",weekend,EN→DE,0,0,561,0,0,0,0
+"das Ziel, -e","goal, destination, finish",DE→EN,0,0,773,0,0,0,0
+"das Ziel, -e","goal, destination, finish",EN→DE,0,0,773,0,0,0,0
 dem,"the (dative, masculine/neuter)",DE→EN,0,0,466,0,0,0,0
 dem,"the (dative, masculine/neuter)",EN→DE,0,0,466,0,0,0,0
 dementsprechend,"accordingly, correspondingly",DE→EN,0,0,421,0,0,0,0
@@ -225,6 +255,8 @@ der Andrang,"rush, crowding, influx",DE→EN,0,0,387,0,0,0,0
 der Andrang,"rush, crowding, influx",EN→DE,0,0,387,0,0,0,0
 "der Anführer, -",leader,DE→EN,4,2.65,5,3,0,2,2
 "der Anführer, -",leader,EN→DE,4,2.5,5,5,0,2,2
+"der Anschluss, Anschlüsse","connection (train), link",DE→EN,0,0,776,0,0,0,0
+"der Anschluss, Anschlüsse","connection (train), link",EN→DE,0,0,776,0,0,0,0
 "der Aufstieg, -e","ascent, climb",DE→EN,0,0,286,0,0,0,0
 "der Aufstieg, -e","ascent, climb",EN→DE,0,0,286,0,0,0,0
 "der Ausgang, Ausgänge","exit, way out; starting point",DE→EN,0,0,435,0,0,0,0
@@ -373,6 +405,8 @@ der Schnee,snow,DE→EN,0,0,335,0,0,0,0
 der Schnee,snow,EN→DE,0,0,335,0,0,0,0
 der Schneesport,snow sport(s),DE→EN,0,0,349,0,0,0,0
 der Schneesport,snow sport(s),EN→DE,0,0,349,0,0,0,0
+"der Schuh, -e",shoe,DE→EN,0,0,752,0,0,0,0
+"der Schuh, -e",shoe,EN→DE,0,0,752,0,0,0,0
 der Schutz,"protection, shelter",DE→EN,0,0,689,0,0,0,0
 der Schutz,"protection, shelter",EN→DE,0,0,689,0,0,0,0
 "der Schutzwall, Schutzwälle","protective wall, barrier",DE→EN,0,0,688,0,0,0,0
@@ -393,6 +427,8 @@ der Schweiss,"sweat, perspiration",EN→DE,0,0,584,0,0,0,0
 "der Skigipfel, -",ski summit,EN→DE,0,0,445,0,0,0,0
 "der Sonntag, -e",Sunday,DE→EN,0,0,621,0,0,0,0
 "der Sonntag, -e",Sunday,EN→DE,0,0,621,0,0,0,0
+"der Spaltensturz, -stürze",crevasse fall,DE→EN,0,0,768,0,0,0,0
+"der Spaltensturz, -stürze",crevasse fall,EN→DE,0,0,768,0,0,0,0
 "der Stall, Ställe","stable, barn",DE→EN,0,0,575,0,0,0,0
 "der Stall, Ställe","stable, barn",EN→DE,0,0,575,0,0,0,0
 "der Start, -s","start, beginning",DE→EN,0,0,594,0,0,0,0
@@ -405,8 +441,12 @@ der Schweiss,"sweat, perspiration",EN→DE,0,0,584,0,0,0,0
 "der Steinschlag, -schläge",rockfall,EN→DE,0,0,398,0,0,0,0
 "der Stollen, -","tunnel, gallery",DE→EN,0,0,399,0,0,0,0
 "der Stollen, -","tunnel, gallery",EN→DE,0,0,399,0,0,0,0
+"der Sturz, Stürze","fall, crash",DE→EN,0,0,769,0,0,0,0
+"der Sturz, Stürze","fall, crash",EN→DE,0,0,769,0,0,0,0
 der Sulzschnee,"corn snow, slush snow",DE→EN,0,0,439,0,0,0,0
 der Sulzschnee,"corn snow, slush snow",EN→DE,0,0,439,0,0,0,0
+"der Tag, -e",day,DE→EN,0,0,780,0,0,0,0
+"der Tag, -e",day,EN→DE,0,0,780,0,0,0,0
 "der Teil, -e","part, section",DE→EN,0,0,358,0,0,0,0
 "der Teil, -e","part, section",EN→DE,0,0,358,0,0,0,0
 "der Traum, Träume",dream,DE→EN,0,0,448,0,0,0,0
@@ -417,14 +457,20 @@ der Triebschnee,"wind-drifted snow, wind slab",EN→DE,0,0,338,0,0,0,0
 "der Tritt, -e","step, footstep, kick",EN→DE,0,0,672,0,0,0,0
 der Trittfirn,firm stepping firn,DE→EN,0,0,671,0,0,0,0
 der Trittfirn,firm stepping firn,EN→DE,0,0,671,0,0,0,0
+der Trittschnee,firm stepping snow,DE→EN,0,0,756,0,0,0,0
+der Trittschnee,firm stepping snow,EN→DE,0,0,756,0,0,0,0
 "der Turm, Türme",tower,DE→EN,0,0,409,0,0,0,0
 "der Turm, Türme",tower,EN→DE,0,0,409,0,0,0,0
+"der Turnschuh, -e","sneaker, trainer",DE→EN,0,0,753,0,0,0,0
+"der Turnschuh, -e","sneaker, trainer",EN→DE,0,0,753,0,0,0,0
 der Verkehr,"traffic, transportation",DE→EN,0,0,346,0,0,0,0
 der Verkehr,"traffic, transportation",EN→DE,0,0,346,0,0,0,0
 "der Verkehrsweg, -e","transportation route, road",DE→EN,0,0,345,0,0,0,0
 "der Verkehrsweg, -e","transportation route, road",EN→DE,0,0,345,0,0,0,0
 "der Verlust, -e",loss,DE→EN,0,0,1775112762,1,0,1,1
 "der Verlust, -e",loss,EN→DE,0,0,279,0,0,0,0
+der Wahnsinn,"madness, insanity",DE→EN,0,0,777,0,0,0,0
+der Wahnsinn,"madness, insanity",EN→DE,0,0,777,0,0,0,0
 "der Wald, Wälder","forest, woods",DE→EN,0,0,572,0,0,0,0
 "der Wald, Wälder","forest, woods",EN→DE,0,0,572,0,0,0,0
 "der Wanderweg, -e",hiking trail,DE→EN,0,0,400,0,0,0,0
@@ -443,12 +489,16 @@ der Verkehr,"traffic, transportation",EN→DE,0,0,346,0,0,0,0
 "der Wissenschaftler, -",scientist,EN→DE,2,2.35,3,4,0,2,2
 "der Zacken, -","spike, point, jag",DE→EN,0,0,679,0,0,0,0
 "der Zacken, -","spike, point, jag",EN→DE,0,0,679,0,0,0,0
+"der Zug, Züge",train,DE→EN,0,0,751,0,0,0,0
+"der Zug, Züge",train,EN→DE,0,0,751,0,0,0,0
 "der Zugang, Zugänge","access, approach, entrance",DE→EN,0,0,460,0,0,0,0
 "der Zugang, Zugänge","access, approach, entrance",EN→DE,0,0,460,0,0,0,0
 "der Zusammenfluss, Zusammenflüsse",confluence,DE→EN,0,0,685,0,0,0,0
 "der Zusammenfluss, Zusammenflüsse",confluence,EN→DE,0,0,685,0,0,0,0
 "der Zustieg, -e","approach (to a climb), access hike",DE→EN,0,0,401,0,0,0,0
 "der Zustieg, -e","approach (to a climb), access hike",EN→DE,0,0,401,0,0,0,0
+"der Zweifel, -",doubt,DE→EN,0,0,757,0,0,0,0
+"der Zweifel, -",doubt,EN→DE,0,0,757,0,0,0,0
 "der Übergang, Übergänge","transition, crossing",DE→EN,0,0,611,0,0,0,0
 "der Übergang, Übergänge","transition, crossing",EN→DE,0,0,611,0,0,0,0
 die,the (feminine; also plural),DE→EN,0,0,463,0,0,0,0
@@ -457,6 +507,8 @@ die,the (feminine; also plural),EN→DE,0,0,463,0,0,0,0
 "die Abfahrt, -en","descent (on skis), departure",EN→DE,0,0,605,0,0,0,0
 "die Abfahrtsvariante, -n","descent variant, alternative descent",DE→EN,0,0,579,0,0,0,0
 "die Abfahrtsvariante, -n","descent variant, alternative descent",EN→DE,0,0,579,0,0,0,0
+"die Akklimatisation, -en",acclimatization,DE→EN,0,0,778,0,0,0,0
+"die Akklimatisation, -en",acclimatization,EN→DE,0,0,778,0,0,0,0
 "die Alpingeschichte, -n",alpine history,DE→EN,0,0,590,0,0,0,0
 "die Alpingeschichte, -n",alpine history,EN→DE,0,0,590,0,0,0,0
 "die Anforderung, -en","requirement, demand; difficulty (rating)",DE→EN,0,0,385,0,0,0,0
@@ -491,18 +543,26 @@ die,the (feminine; also plural),EN→DE,0,0,463,0,0,0,0
 "die Besteigung, -en","ascent, climbing (of a mountain)",EN→DE,1,2.1,1775112856,9,2,3,1
 "die Bewertung, -en","rating, evaluation, assessment",DE→EN,0,0,394,0,0,0,0
 "die Bewertung, -en","rating, evaluation, assessment",EN→DE,0,0,394,0,0,0,0
+"die Brücke, -n",bridge,DE→EN,0,0,767,0,0,0,0
+"die Brücke, -n",bridge,EN→DE,0,0,767,0,0,0,0
 "die Devise, -n","motto, maxim, plan",DE→EN,0,0,604,0,0,0,0
 "die Devise, -n","motto, maxim, plan",EN→DE,0,0,604,0,0,0,0
 "die Distanz, -en",distance,DE→EN,0,0,506,0,0,0,0
 "die Distanz, -en",distance,EN→DE,0,0,506,0,0,0,0
+"die Dusche, -n",shower,DE→EN,0,0,766,0,0,0,0
+"die Dusche, -n",shower,EN→DE,0,0,766,0,0,0,0
 "die Endstation, -en","final stop, terminus; end of the line",DE→EN,5,2.5,6,1,0,2,2
 "die Endstation, -en","final stop, terminus; end of the line",EN→DE,3,2.5,5,4,0,2,2
 "die Erfrischung, -en",refreshment,DE→EN,0,0,512,0,0,0,0
 "die Erfrischung, -en",refreshment,EN→DE,0,0,512,0,0,0,0
 "die Erfrischungspause, -n",refreshment break,DE→EN,0,0,617,0,0,0,0
 "die Erfrischungspause, -n",refreshment break,EN→DE,0,0,617,0,0,0,0
+"die Erstbesteigung, -en",first ascent,DE→EN,0,0,781,0,0,0,0
+"die Erstbesteigung, -en",first ascent,EN→DE,0,0,781,0,0,0,0
 "die Exposition, -en","aspect, exposure (compass direction a slope faces)",DE→EN,0,0,392,0,0,0,0
 "die Exposition, -en","aspect, exposure (compass direction a slope faces)",EN→DE,0,0,392,0,0,0,0
+"die Fahrt, -en","ride, journey, trip",DE→EN,0,0,754,0,0,0,0
+"die Fahrt, -en","ride, journey, trip",EN→DE,0,0,754,0,0,0,0
 "die Flanke, -n","flank, side (of a mountain)",DE→EN,0,0,1775112753,1,0,1,1
 "die Flanke, -n","flank, side (of a mountain)",EN→DE,0,0,280,0,0,0,0
 "die Frau, -en","woman, wife, Mrs.",DE→EN,0,0,494,0,0,0,0
@@ -519,6 +579,8 @@ die,the (feminine; also plural),EN→DE,0,0,463,0,0,0,0
 "die Gemeinsamkeit, -en","commonality, shared characteristic",EN→DE,1,2.3,2,12,1,2,2
 "die Geschichte, -n",history; story,DE→EN,4,2.5,6,3,0,2,2
 "die Geschichte, -n",history; story,EN→DE,1,2.5,2,4,0,2,2
+"die Gipfelbesteigung, -en","summit ascent, summit climb",DE→EN,0,0,761,0,0,0,0
+"die Gipfelbesteigung, -en","summit ascent, summit climb",EN→DE,0,0,761,0,0,0,0
 die Gipfelnähe,"vicinity of the summit, near the summit",DE→EN,0,0,446,0,0,0,0
 die Gipfelnähe,"vicinity of the summit, near the summit",EN→DE,0,0,446,0,0,0,0
 "die Gipfelrast, -en","summit rest, rest at the top",DE→EN,0,0,603,0,0,0,0
@@ -547,6 +609,8 @@ die Hitze,"heat, hot weather",EN→DE,0,0,661,0,0,0,0
 "die Kartennummer, -n",map number,EN→DE,0,0,450,0,0,0,0
 "die Kehre, -n","switchback, hairpin turn",DE→EN,0,0,565,0,0,0,0
 "die Kehre, -n","switchback, hairpin turn",EN→DE,0,0,565,0,0,0,0
+"die Kletterpassage, -n","climbing passage, climbing section",DE→EN,0,0,760,0,0,0,0
+"die Kletterpassage, -n","climbing passage, climbing section",EN→DE,0,0,760,0,0,0,0
 "die Kletterstelle, -n","climbing spot, climbing section",DE→EN,0,0,677,0,0,0,0
 "die Kletterstelle, -n","climbing spot, climbing section",EN→DE,0,0,677,0,0,0,0
 "die Kombination, -en",combination,DE→EN,0,0,582,0,0,0,0
@@ -565,6 +629,8 @@ die Leute (pl.),people,DE→EN,0,0,454,0,0,0,0
 die Leute (pl.),people,EN→DE,0,0,454,0,0,0,0
 "die Lockerschneelawine, -n",loose-snow avalanche,DE→EN,0,0,341,0,0,0,0
 "die Lockerschneelawine, -n",loose-snow avalanche,EN→DE,0,0,341,0,0,0,0
+"die Luft, Lüfte",air,DE→EN,0,0,755,0,0,0,0
+"die Luft, Lüfte",air,EN→DE,0,0,755,0,0,0,0
 "die Lücke, -n","gap, pass (alpine)",DE→EN,0,0,666,0,0,0,0
 "die Lücke, -n","gap, pass (alpine)",EN→DE,0,0,666,0,0,0,0
 "die Masse, -n","mass, crowd",DE→EN,0,0,569,0,0,0,0
@@ -591,6 +657,8 @@ die Leute (pl.),people,EN→DE,0,0,454,0,0,0,0
 "die Passage, -n","passage, section",EN→DE,0,0,676,0,0,0,0
 "die Pause, -n","break, pause, rest",DE→EN,0,0,597,0,0,0,0
 "die Pause, -n","break, pause, rest",EN→DE,0,0,597,0,0,0,0
+"die Person, -en",person,DE→EN,0,0,770,0,0,0,0
+"die Person, -en",person,EN→DE,0,0,770,0,0,0,0
 "die Piste, -n","ski run, piste",DE→EN,0,0,348,0,0,0,0
 "die Piste, -n","ski run, piste",EN→DE,0,0,348,0,0,0,0
 "die Prognose, -n","forecast, prognosis",DE→EN,0,0,334,0,0,0,0
@@ -683,20 +751,30 @@ die Verpflegung,"provisions, food, catering",DE→EN,0,0,695,0,0,0,0
 die Verpflegung,"provisions, food, catering",EN→DE,0,0,695,0,0,0,0
 die Vorsicht,"caution, care",DE→EN,0,0,502,0,0,0,0
 die Vorsicht,"caution, care",EN→DE,0,0,502,0,0,0,0
+"die Wahl, -en","choice, option",DE→EN,0,0,771,0,0,0,0
+"die Wahl, -en","choice, option",EN→DE,0,0,771,0,0,0,0
 "die Wand, Wände",wall; face (of a mountain),DE→EN,0,0,441,0,0,0,0
 "die Wand, Wände",wall; face (of a mountain),EN→DE,0,0,441,0,0,0,0
+"die Wartezeit, -en","waiting time, delay",DE→EN,0,0,762,0,0,0,0
+"die Wartezeit, -en","waiting time, delay",EN→DE,0,0,762,0,0,0,0
 "die Woche, -n",week,DE→EN,0,0,562,0,0,0,0
 "die Woche, -n",week,EN→DE,0,0,562,0,0,0,0
 "die Wolke, -n",cloud,DE→EN,0,0,427,0,0,0,0
 "die Wolke, -n",cloud,EN→DE,0,0,427,0,0,0,0
+"die Zeit, -en",time,DE→EN,0,0,763,0,0,0,0
+"die Zeit, -en",time,EN→DE,0,0,763,0,0,0,0
 "die Zwischensicherung, -en",intermediate protection,DE→EN,0,0,680,0,0,0,0
 "die Zwischensicherung, -en",intermediate protection,EN→DE,0,0,680,0,0,0,0
 "die Übernachtung, -en",overnight stay,DE→EN,0,0,694,0,0,0,0
 "die Übernachtung, -en",overnight stay,EN→DE,0,0,694,0,0,0,0
+diese,"this, these",DE→EN,0,0,834,0,0,0,0
+diese,"this, these",EN→DE,0,0,834,0,0,0,0
 direkt,"direct, directly, straight",DE→EN,0,0,465,0,0,0,0
 direkt,"direct, directly, straight",EN→DE,0,0,465,0,0,0,0
 doch,"but, yet, however; (emphasis particle)",DE→EN,0,0,437,0,0,0,0
 doch,"but, yet, however; (emphasis particle)",EN→DE,0,0,437,0,0,0,0
+doppelt,"double, twofold",DE→EN,0,0,824,0,0,0,0
+doppelt,"double, twofold",EN→DE,0,0,824,0,0,0,0
 dort,there,DE→EN,0,0,474,0,0,0,0
 dort,there,EN→DE,0,0,474,0,0,0,0
 durch,"through, by",DE→EN,0,0,386,0,0,0,0
@@ -707,10 +785,16 @@ durchdacht,"well-thought-out, cleverly designed",DE→EN,0,0,737,0,0,0,0
 durchdacht,"well-thought-out, cleverly designed",EN→DE,0,0,737,0,0,0,0
 durchgehend,"continuously, without interruption",DE→EN,0,0,728,0,0,0,0
 durchgehend,"continuously, without interruption",EN→DE,0,0,728,0,0,0,0
+dünn,"thin, slim",DE→EN,0,0,801,0,0,0,0
+dünn,"thin, slim",EN→DE,0,0,801,0,0,0,0
 ebenfalls,"likewise, also",DE→EN,0,0,423,0,0,0,0
 ebenfalls,"likewise, also",EN→DE,0,0,423,0,0,0,0
 eigentlich,"actual, real; actually",DE→EN,0,0,310,0,0,0,0
 eigentlich,"actual, real; actually",EN→DE,0,0,310,0,0,0,0
+einfach,"simple, simply, just",DE→EN,0,0,816,0,0,0,0
+einfach,"simple, simply, just",EN→DE,0,0,816,0,0,0,0
+einfache,"single, one-way (ticket)",DE→EN,0,0,839,0,0,0,0
+einfache,"single, one-way (ticket)",EN→DE,0,0,839,0,0,0,0
 eingehen,"to go down (in history), to enter into",DE→EN,0,0,300,0,0,0,0
 eingehen,"to go down (in history), to enter into",EN→DE,0,0,300,0,0,0,0
 einige,"some, a few, several",DE→EN,0,0,545,0,0,0,0
@@ -731,10 +815,14 @@ endlich,"finally, at last",DE→EN,0,0,706,0,0,0,0
 endlich,"finally, at last",EN→DE,0,0,706,0,0,0,0
 eng,"narrow, tight",DE→EN,0,0,551,0,0,0,0
 eng,"narrow, tight",EN→DE,0,0,551,0,0,0,0
+entgegen,"toward, against (coming toward)",DE→EN,0,0,836,0,0,0,0
+entgegen,"toward, against (coming toward)",EN→DE,0,0,836,0,0,0,0
 entlang,along (+ accusative or dative),DE→EN,0,0,417,0,0,0,0
 entlang,along (+ accusative or dative),EN→DE,0,0,417,0,0,0,0
 entscheiden,to decide,DE→EN,0,0,526,0,0,0,0
 entscheiden,to decide,EN→DE,0,0,526,0,0,0,0
+entschärfen,"to defuse, to make safer",DE→EN,0,0,800,0,0,0,0
+entschärfen,"to defuse, to make safer",EN→DE,0,0,800,0,0,0,0
 erforderlich,"required, necessary",DE→EN,0,0,504,0,0,0,0
 erforderlich,"required, necessary",EN→DE,0,0,504,0,0,0,0
 erfrischen,to refresh,DE→EN,0,0,636,0,0,0,0
@@ -743,18 +831,26 @@ erheblich,"considerable, significant",DE→EN,0,0,372,0,0,0,0
 erheblich,"considerable, significant",EN→DE,0,0,372,0,0,0,0
 erklettern,to climb (to the top of),DE→EN,0,0,638,0,0,0,0
 erklettern,to climb (to the top of),EN→DE,0,0,638,0,0,0,0
+ermüden,"to tire, to fatigue",DE→EN,0,0,797,0,0,0,0
+ermüden,"to tire, to fatigue",EN→DE,0,0,797,0,0,0,0
+ermüdend,"tiring, exhausting",DE→EN,0,0,825,0,0,0,0
+ermüdend,"tiring, exhausting",EN→DE,0,0,825,0,0,0,0
 erneut,"again, once more, anew",DE→EN,0,0,723,0,0,0,0
 erneut,"again, once more, anew",EN→DE,0,0,723,0,0,0,0
 erreichen,"to reach, to attain",DE→EN,0,0,297,0,0,0,0
 erreichen,"to reach, to attain",EN→DE,0,0,297,0,0,0,0
 erschöpft,"exhausted, worn out",DE→EN,0,0,713,0,0,0,0
 erschöpft,"exhausted, worn out",EN→DE,0,0,713,0,0,0,0
+erstaunlich,"amazing, astonishing",DE→EN,0,0,809,0,0,0,0
+erstaunlich,"amazing, astonishing",EN→DE,0,0,809,0,0,0,0
 erste,first (ordinal),DE→EN,0,0,479,0,0,0,0
 erste,first (ordinal),EN→DE,0,0,479,0,0,0,0
 erstklassig,"first-class, excellent",DE→EN,0,0,738,0,0,0,0
 erstklassig,"first-class, excellent",EN→DE,0,0,738,0,0,0,0
 erwarten,to expect,DE→EN,0,0,361,0,0,0,0
 erwarten,to expect,EN→DE,0,0,361,0,0,0,0
+erwischen,to catch (a train/bus),DE→EN,0,0,793,0,0,0,0
+erwischen,to catch (a train/bus),EN→DE,0,0,793,0,0,0,0
 es,it,DE→EN,0,0,536,0,0,0,0
 es,it,EN→DE,0,0,536,0,0,0,0
 essen,to eat,DE→EN,0,0,483,0,0,0,0
@@ -773,6 +869,8 @@ flach,flat,DE→EN,0,0,319,0,0,0,0
 flach,flat,EN→DE,0,0,319,0,0,0,0
 flacher,flatter (comparative),DE→EN,0,0,589,0,0,0,0
 flacher,flatter (comparative),EN→DE,0,0,589,0,0,0,0
+fliessend,"running (water), flowing, fluent",DE→EN,0,0,822,0,0,0,0
+fliessend,"running (water), flowing, fluent",EN→DE,0,0,822,0,0,0,0
 folgen,to follow,DE→EN,0,0,525,0,0,0,0
 folgen,to follow,EN→DE,0,0,525,0,0,0,0
 frequentiert,"frequented, busy",DE→EN,0,0,386,0,0,0,0
@@ -783,12 +881,18 @@ frostig,"frosty, freezing",DE→EN,0,0,733,0,0,0,0
 frostig,"frosty, freezing",EN→DE,0,0,733,0,0,0,0
 früh,early,DE→EN,0,0,309,0,0,0,0
 früh,early,EN→DE,0,0,309,0,0,0,0
+fühlen,to feel,DE→EN,0,0,785,0,0,0,0
+fühlen,to feel,EN→DE,0,0,785,0,0,0,0
 führen,"to lead, to go (of a route)",DE→EN,0,0,505,0,0,0,0
 führen,"to lead, to go (of a route)",EN→DE,0,0,505,0,0,0,0
 füllen,to fill,DE→EN,0,0,633,0,0,0,0
 füllen,to fill,EN→DE,0,0,633,0,0,0,0
 für,"for, in favor of",DE→EN,0,0,388,0,0,0,0
 für,"for, in favor of",EN→DE,0,0,388,0,0,0,0
+ganz,"entirely, quite, completely",DE→EN,0,0,829,0,0,0,0
+ganz,"entirely, quite, completely",EN→DE,0,0,829,0,0,0,0
+gar,at all (with nicht),DE→EN,0,0,827,0,0,0,0
+gar,at all (with nicht),EN→DE,0,0,827,0,0,0,0
 gedeckelt,"crusted (snow), capped",DE→EN,0,0,509,0,0,0,0
 gedeckelt,"crusted (snow), capped",EN→DE,0,0,509,0,0,0,0
 gefährden,"to endanger, to put at risk",DE→EN,0,0,362,0,0,0,0
@@ -811,6 +915,8 @@ gemäss,according to (+ dative),DE→EN,0,0,399,0,0,0,0
 gemäss,according to (+ dative),EN→DE,0,0,399,0,0,0,0
 gemütlich,"comfortable, relaxed, cozy",DE→EN,0,0,411,0,0,0,0
 gemütlich,"comfortable, relaxed, cozy",EN→DE,0,0,411,0,0,0,0
+genau,"exactly, precisely",DE→EN,0,0,831,0,0,0,0
+genau,"exactly, precisely",EN→DE,0,0,831,0,0,0,0
 geniessen,to enjoy,DE→EN,0,0,626,0,0,0,0
 geniessen,to enjoy,EN→DE,0,0,626,0,0,0,0
 genussvoll,"enjoyable, delightful",DE→EN,0,0,555,0,0,0,0
@@ -823,6 +929,8 @@ gesichert,"secured, controlled, safeguarded",DE→EN,0,0,375,0,0,0,0
 gesichert,"secured, controlled, safeguarded",EN→DE,0,0,375,0,0,0,0
 geübt,"experienced, practiced, skilled",DE→EN,0,0,412,0,0,0,0
 geübt,"experienced, practiced, skilled",EN→DE,0,0,412,0,0,0,0
+gleichgültig,"indifferent, unconcerned",DE→EN,0,0,813,0,0,0,0
+gleichgültig,"indifferent, unconcerned",EN→DE,0,0,813,0,0,0,0
 gleiten,"to glide, to slide",DE→EN,0,0,363,0,0,0,0
 gleiten,"to glide, to slide",EN→DE,0,0,363,0,0,0,0
 glücklich,"happy, fortunate",DE→EN,0,0,710,0,0,0,0
@@ -849,6 +957,10 @@ hart,"hard, firm, tough",DE→EN,0,0,449,0,0,0,0
 hart,"hard, firm, tough",EN→DE,0,0,449,0,0,0,0
 heikel,"tricky, delicate, precarious",DE→EN,0,0,413,0,0,0,0
 heikel,"tricky, delicate, precarious",EN→DE,0,0,413,0,0,0,0
+heimtückisch,"treacherous, insidious",DE→EN,0,0,817,0,0,0,0
+heimtückisch,"treacherous, insidious",EN→DE,0,0,817,0,0,0,0
+helfen,to help,DE→EN,0,0,784,0,0,0,0
+helfen,to help,EN→DE,0,0,784,0,0,0,0
 herrschen,"to prevail, to reign, to dominate",DE→EN,0,0,478,0,0,0,0
 herrschen,"to prevail, to reign, to dominate",EN→DE,0,0,478,0,0,0,0
 heute,today,DE→EN,0,0,316,0,0,0,0
@@ -857,6 +969,8 @@ hier,"here, in this place",DE→EN,0,0,389,0,0,0,0
 hier,"here, in this place",EN→DE,0,0,389,0,0,0,0
 hinauf,"up, upward",DE→EN,0,0,542,0,0,0,0
 hinauf,"up, upward",EN→DE,0,0,542,0,0,0,0
+hindurch,"through, throughout",DE→EN,0,0,837,0,0,0,0
+hindurch,"through, throughout",EN→DE,0,0,837,0,0,0,0
 hinunter,"down, downward",DE→EN,0,0,329,0,0,0,0
 hinunter,"down, downward",EN→DE,0,0,329,0,0,0,0
 hinüberqueren,"to cross over, to traverse across",DE→EN,0,0,305,0,0,0,0
@@ -903,6 +1017,8 @@ kurzerhand,"on the spot, without hesitation",DE→EN,0,0,548,0,0,0,0
 kurzerhand,"on the spot, without hesitation",EN→DE,0,0,548,0,0,0,0
 können,"can, to be able to",DE→EN,0,0,481,0,0,0,0
 können,"can, to be able to",EN→DE,0,0,481,0,0,0,0
+kühl,"cool, chilly",DE→EN,0,0,810,0,0,0,0
+kühl,"cool, chilly",EN→DE,0,0,810,0,0,0,0
 lang,long,DE→EN,0,0,320,0,0,0,0
 lang,long,EN→DE,0,0,320,0,0,0,0
 lassen,"to let, to leave, to allow",DE→EN,0,0,623,0,0,0,0
@@ -923,6 +1039,8 @@ locker,"loose, light (of snow)",DE→EN,0,0,377,0,0,0,0
 locker,"loose, light (of snow)",EN→DE,0,0,377,0,0,0,0
 lohnend,"worthwhile, rewarding",DE→EN,0,0,393,0,0,0,0
 lohnend,"worthwhile, rewarding",EN→DE,0,0,393,0,0,0,0
+losziehen,"to set off, to head out",DE→EN,0,0,788,0,0,0,0
+losziehen,"to set off, to head out",EN→DE,0,0,788,0,0,0,0
 luftig,"airy, breezy, exposed",DE→EN,0,0,457,0,0,0,0
 luftig,"airy, breezy, exposed",EN→DE,0,0,457,0,0,0,0
 machen,"to make, to do",DE→EN,0,0,521,0,0,0,0
@@ -931,6 +1049,8 @@ man,"one (impersonal), you (general)",DE→EN,0,0,476,0,0,0,0
 man,"one (impersonal), you (general)",EN→DE,0,0,476,0,0,0,0
 markant,"prominent, striking, distinctive",DE→EN,0,0,311,0,0,0,0
 markant,"prominent, striking, distinctive",EN→DE,0,0,311,0,0,0,0
+markiert,"marked, signposted",DE→EN,0,0,811,0,0,0,0
+markiert,"marked, signposted",EN→DE,0,0,811,0,0,0,0
 mehr oder weniger,more or less,DE→EN,0,0,429,0,0,0,0
 mehr oder weniger,more or less,EN→DE,0,0,429,0,0,0,0
 meist,"mostly, usually",DE→EN,0,0,441,0,0,0,0
@@ -981,8 +1101,14 @@ nordöstlich,northeastern,DE→EN,0,0,743,0,0,0,0
 nordöstlich,northeastern,EN→DE,0,0,743,0,0,0,0
 nun,"now, well",DE→EN,0,0,405,0,0,0,0
 nun,"now, well",EN→DE,0,0,405,0,0,0,0
+nur,"only, just",DE→EN,0,0,830,0,0,0,0
+nur,"only, just",EN→DE,0,0,830,0,0,0,0
+nächste,next,DE→EN,0,0,832,0,0,0,0
+nächste,next,EN→DE,0,0,832,0,0,0,0
 nördlich,"northern, northerly; to the north",DE→EN,0,0,328,0,0,0,0
 nördlich,"northern, northerly; to the north",EN→DE,0,0,328,0,0,0,0
+oben,"up, above, on top",DE→EN,0,0,826,0,0,0,0
+oben,"up, above, on top",EN→DE,0,0,826,0,0,0,0
 obere,"upper, higher",DE→EN,0,0,450,0,0,0,0
 obere,"upper, higher",EN→DE,0,0,450,0,0,0,0
 oberhalb,"above, higher up",DE→EN,0,0,721,0,0,0,0
@@ -993,10 +1119,14 @@ oder,"or, or else",DE→EN,0,0,393,0,0,0,0
 oder,"or, or else",EN→DE,0,0,393,0,0,0,0
 offen,open,DE→EN,0,0,467,0,0,0,0
 offen,open,EN→DE,0,0,467,0,0,0,0
+offenbar,"apparently, evidently",DE→EN,0,0,818,0,0,0,0
+offenbar,"apparently, evidently",EN→DE,0,0,818,0,0,0,0
 ohne,without,DE→EN,0,0,538,0,0,0,0
 ohne,without,EN→DE,0,0,538,0,0,0,0
 optimal,"optimal, ideal",DE→EN,0,0,463,0,0,0,0
 optimal,"optimal, ideal",EN→DE,0,0,463,0,0,0,0
+packen,"to pack, to grab",DE→EN,0,0,796,0,0,0,0
+packen,"to pack, to grab",EN→DE,0,0,796,0,0,0,0
 passieren,"to pass, to cross, to happen",DE→EN,0,0,629,0,0,0,0
 passieren,"to pass, to cross, to happen",EN→DE,0,0,629,0,0,0,0
 perfekt,"perfect, flawless",DE→EN,0,0,462,0,0,0,0
@@ -1011,24 +1141,38 @@ prächtig,"magnificent, splendid, gorgeous",DE→EN,0,0,550,0,0,0,0
 prächtig,"magnificent, splendid, gorgeous",EN→DE,0,0,550,0,0,0,0
 pulvrig,powdery (snow),DE→EN,0,0,547,0,0,0,0
 pulvrig,powdery (snow),EN→DE,0,0,547,0,0,0,0
+pur,"pure, sheer",DE→EN,0,0,821,0,0,0,0
+pur,"pure, sheer",EN→DE,0,0,821,0,0,0,0
 queren,"to cross, to traverse",DE→EN,0,0,306,0,0,0,0
 queren,"to cross, to traverse",EN→DE,0,0,306,0,0,0,0
 rasch,"quickly, swiftly",DE→EN,0,0,428,0,0,0,0
 rasch,"quickly, swiftly",EN→DE,0,0,428,0,0,0,0
+rechnen,"to calculate, to expect",DE→EN,0,0,790,0,0,0,0
+rechnen,"to calculate, to expect",EN→DE,0,0,790,0,0,0,0
 rechts,"right (direction), to the right",DE→EN,0,0,410,0,0,0,0
 rechts,"right (direction), to the right",EN→DE,0,0,410,0,0,0,0
+rege,"busy, brisk, active",DE→EN,0,0,808,0,0,0,0
+rege,"busy, brisk, active",EN→DE,0,0,808,0,0,0,0
 reibungslos,"smooth, without friction",DE→EN,0,0,731,0,0,0,0
 reibungslos,"smooth, without friction",EN→DE,0,0,731,0,0,0,0
+relativ,"relatively, rather",DE→EN,0,0,805,0,0,0,0
+relativ,"relatively, rather",EN→DE,0,0,805,0,0,0,0
 riesig,"huge, enormous, gigantic",DE→EN,0,0,714,0,0,0,0
 riesig,"huge, enormous, gigantic",EN→DE,0,0,714,0,0,0,0
 rund,"around, approximately; round",DE→EN,0,0,330,0,0,0,0
 rund,"around, approximately; round",EN→DE,0,0,330,0,0,0,0
+runter,down (colloquial),DE→EN,0,0,838,0,0,0,0
+runter,down (colloquial),EN→DE,0,0,838,0,0,0,0
 ruppig,"rough, bumpy, coarse",DE→EN,0,0,734,0,0,0,0
 ruppig,"rough, bumpy, coarse",EN→DE,0,0,734,0,0,0,0
 sanft,"gentle, soft",DE→EN,0,0,318,0,0,0,0
 sanft,"gentle, soft",EN→DE,0,0,318,0,0,0,0
+schaffen,to manage; to cause (zu schaffen machen),DE→EN,0,0,783,0,0,0,0
+schaffen,to manage; to cause (zu schaffen machen),EN→DE,0,0,783,0,0,0,0
 scheinen,"to seem, to appear; to shine",DE→EN,0,0,644,0,0,0,0
 scheinen,"to seem, to appear; to shine",EN→DE,0,0,644,0,0,0,0
+schlecht,"bad, poor",DE→EN,0,0,802,0,0,0,0
+schlecht,"bad, poor",EN→DE,0,0,802,0,0,0,0
 schlechthin,"par excellence, quintessentially, simply",DE→EN,0,0,420,0,0,0,0
 schlechthin,"par excellence, quintessentially, simply",EN→DE,0,0,420,0,0,0,0
 schliesslich,"finally, eventually, in the end",DE→EN,0,0,429,0,0,0,0
@@ -1039,6 +1183,8 @@ schmal,"narrow, slim",DE→EN,0,0,720,0,0,0,0
 schmal,"narrow, slim",EN→DE,0,0,720,0,0,0,0
 schnallen,"to buckle, to strap",DE→EN,0,0,630,0,0,0,0
 schnallen,"to buckle, to strap",EN→DE,0,0,630,0,0,0,0
+schnappen,"to grab, to catch, to snatch",DE→EN,0,0,782,0,0,0,0
+schnappen,"to grab, to catch, to snatch",EN→DE,0,0,782,0,0,0,0
 schnell,"fast, quick, quickly",DE→EN,0,0,394,0,0,0,0
 schnell,"fast, quick, quickly",EN→DE,0,0,394,0,0,0,0
 schon,"already, even",DE→EN,0,0,395,0,0,0,0
@@ -1051,12 +1197,18 @@ schön,"beautiful, nice, lovely",DE→EN,0,0,404,0,0,0,0
 schön,"beautiful, nice, lovely",EN→DE,0,0,404,0,0,0,0
 sehen,"to see, to look",DE→EN,0,0,480,0,0,0,0
 sehen,"to see, to look",EN→DE,0,0,480,0,0,0,0
+seilfrei,"rope-free, unroped",DE→EN,0,0,806,0,0,0,0
+seilfrei,"rope-free, unroped",EN→DE,0,0,806,0,0,0,0
 sein,to be,DE→EN,0,0,516,0,0,0,0
 sein,to be,EN→DE,0,0,516,0,0,0,0
+selbst,"self, oneself; even",DE→EN,0,0,835,0,0,0,0
+selbst,"self, oneself; even",EN→DE,0,0,835,0,0,0,0
 selten,"rarely, seldom",DE→EN,0,0,314,0,0,0,0
 selten,"rarely, seldom",EN→DE,0,0,314,0,0,0,0
 sich,"oneself, themselves",DE→EN,0,0,402,0,0,0,0
 sich,"oneself, themselves",EN→DE,0,0,402,0,0,0,0
+sich ereignen,"to occur, to happen",DE→EN,0,0,798,0,0,0,0
+sich ereignen,"to occur, to happen",EN→DE,0,0,798,0,0,0,0
 sich verziehen,"to clear up, to dissipate (of clouds/fog)",DE→EN,0,0,403,0,0,0,0
 sich verziehen,"to clear up, to dissipate (of clouds/fog)",EN→DE,0,0,403,0,0,0,0
 siehe da,lo and behold,DE→EN,0,0,404,0,0,0,0
@@ -1083,6 +1235,8 @@ spontan,spontaneous,DE→EN,0,0,366,0,0,0,0
 spontan,spontaneous,EN→DE,0,0,366,0,0,0,0
 spuren,"to break trail, to make tracks",DE→EN,0,0,528,0,0,0,0
 spuren,"to break trail, to make tracks",EN→DE,0,0,528,0,0,0,0
+spürbar,"noticeable, palpable",DE→EN,0,0,803,0,0,0,0
+spürbar,"noticeable, palpable",EN→DE,0,0,803,0,0,0,0
 stark,"strong, heavy, intense",DE→EN,0,0,444,0,0,0,0
 stark,"strong, heavy, intense",EN→DE,0,0,444,0,0,0,0
 starten,"to start, to set off",DE→EN,0,0,426,0,0,0,0
@@ -1093,6 +1247,8 @@ steigen,"to climb, to rise, to go up",DE→EN,0,0,303,0,0,0,0
 steigen,"to climb, to rise, to go up",EN→DE,0,0,303,0,0,0,0
 steil,steep,DE→EN,0,0,373,0,0,0,0
 steil,steep,EN→DE,0,0,373,0,0,0,0
+stressfrei,"stress-free, relaxed",DE→EN,0,0,823,0,0,0,0
+stressfrei,"stress-free, relaxed",EN→DE,0,0,823,0,0,0,0
 störanfällig,"prone to triggering, sensitive to disturbance",DE→EN,0,0,364,0,0,0,0
 störanfällig,"prone to triggering, sensitive to disturbance",EN→DE,0,0,364,0,0,0,0
 störend,"annoying, disturbing",DE→EN,0,0,468,0,0,0,0
@@ -1133,6 +1289,8 @@ ungefähr,approximately,DE→EN,0,0,433,0,0,0,0
 ungefähr,approximately,EN→DE,0,0,433,0,0,0,0
 uns,us (dative/accusative),DE→EN,0,0,401,0,0,0,0
 uns,us (dative/accusative),EN→DE,0,0,401,0,0,0,0
+unsicher,"unsafe, uncertain, insecure",DE→EN,0,0,804,0,0,0,0
+unsicher,"unsafe, uncertain, insecure",EN→DE,0,0,804,0,0,0,0
 unten,"below, at the bottom, down",DE→EN,0,0,540,0,0,0,0
 unten,"below, at the bottom, down",EN→DE,0,0,540,0,0,0,0
 unter,"under, below, beneath",DE→EN,0,0,539,0,0,0,0
@@ -1143,6 +1301,8 @@ unterhalb,"below, beneath (+ genitive)",DE→EN,0,0,315,0,0,0,0
 unterhalb,"below, beneath (+ genitive)",EN→DE,0,0,315,0,0,0,0
 unterwegs,"on the way, out and about",DE→EN,0,0,434,0,0,0,0
 unterwegs,"on the way, out and about",EN→DE,0,0,434,0,0,0,0
+unumgänglich,"unavoidable, inevitable",DE→EN,0,0,815,0,0,0,0
+unumgänglich,"unavoidable, inevitable",EN→DE,0,0,815,0,0,0,0
 unverfahren,"untracked, unridden (of snow/slopes)",DE→EN,0,0,418,0,0,0,0
 unverfahren,"untracked, unridden (of snow/slopes)",EN→DE,0,0,418,0,0,0,0
 unwesentlich,"insignificant, marginal, slightly",DE→EN,0,0,748,0,0,0,0
@@ -1157,8 +1317,14 @@ vereist,iced over,DE→EN,0,0,415,0,0,0,0
 vereist,iced over,EN→DE,0,0,415,0,0,0,0
 verlangen,"to demand, to require",DE→EN,0,0,473,0,0,0,0
 verlangen,"to demand, to require",EN→DE,0,0,473,0,0,0,0
+vernichten,"to destroy, to annihilate",DE→EN,0,0,791,0,0,0,0
+vernichten,"to destroy, to annihilate",EN→DE,0,0,791,0,0,0,0
+verrückt,"crazy, insane, mad",DE→EN,0,0,814,0,0,0,0
+verrückt,"crazy, insane, mad",EN→DE,0,0,814,0,0,0,0
 verschneit,snow-covered,DE→EN,0,0,416,0,0,0,0
 verschneit,snow-covered,EN→DE,0,0,416,0,0,0,0
+versehen,"to equip, to provide with",DE→EN,0,0,799,0,0,0,0
+versehen,"to equip, to provide with",EN→DE,0,0,799,0,0,0,0
 versenken,"to sink, to bury, to drive in",DE→EN,0,0,417,0,0,0,0
 versenken,"to sink, to bury, to drive in",EN→DE,0,0,417,0,0,0,0
 verwehren,"to deny, to prevent",DE→EN,0,0,471,0,0,0,0
@@ -1183,12 +1349,16 @@ vorhanden,"available, present, existing",DE→EN,0,0,740,0,0,0,0
 vorhanden,"available, present, existing",EN→DE,0,0,740,0,0,0,0
 vorsichtig,"careful, cautious",DE→EN,0,0,716,0,0,0,0
 vorsichtig,"careful, cautious",EN→DE,0,0,716,0,0,0,0
+völlig,"completely, totally",DE→EN,0,0,812,0,0,0,0
+völlig,"completely, totally",EN→DE,0,0,812,0,0,0,0
 wandern,"to hike, to walk",DE→EN,0,0,443,0,0,0,0
 wandern,"to hike, to walk",EN→DE,0,0,443,0,0,0,0
 warm,warm,DE→EN,0,0,455,0,0,0,0
 warm,warm,EN→DE,0,0,455,0,0,0,0
 was,"what, which",DE→EN,0,0,396,0,0,0,0
 was,"what, which",EN→DE,0,0,396,0,0,0,0
+wechseln,"to change, to swap",DE→EN,0,0,794,0,0,0,0
+wechseln,"to change, to swap",EN→DE,0,0,794,0,0,0,0
 weg,"away, gone, off",DE→EN,0,0,490,0,0,0,0
 weg,"away, gone, off",EN→DE,0,0,490,0,0,0,0
 weich,soft,DE→EN,0,0,715,0,0,0,0
@@ -1219,6 +1389,8 @@ wirken,"to have an effect, to work",DE→EN,0,0,635,0,0,0,0
 wirken,"to have an effect, to work",EN→DE,0,0,635,0,0,0,0
 wirklich,"really, truly",DE→EN,0,0,707,0,0,0,0
 wirklich,"really, truly",EN→DE,0,0,707,0,0,0,0
+wohl,"probably, presumably, likely",DE→EN,0,0,828,0,0,0,0
+wohl,"probably, presumably, likely",EN→DE,0,0,828,0,0,0,0
 wollen,to want,DE→EN,0,0,520,0,0,0,0
 wollen,to want,EN→DE,0,0,520,0,0,0,0
 ziemlich,"quite, fairly, rather",DE→EN,0,0,469,0,0,0,0
@@ -1233,6 +1405,8 @@ zudem,"moreover, furthermore, in addition",DE→EN,0,0,438,0,0,0,0
 zudem,"moreover, furthermore, in addition",EN→DE,0,0,438,0,0,0,0
 zuerst,"first, at first",DE→EN,0,0,406,0,0,0,0
 zuerst,"first, at first",EN→DE,0,0,406,0,0,0,0
+zulassen,"to allow, to permit",DE→EN,0,0,787,0,0,0,0
+zulassen,"to allow, to permit",EN→DE,0,0,787,0,0,0,0
 zuletzt,"lastly, finally; most recently",DE→EN,0,0,324,0,0,0,0
 zuletzt,"lastly, finally; most recently",EN→DE,0,0,324,0,0,0,0
 zum Teil,"partly, in part",DE→EN,0,0,439,0,0,0,0
@@ -1247,6 +1421,8 @@ zusammen,together,DE→EN,0,0,687,0,0,0,0
 zusammen,together,EN→DE,0,0,687,0,0,0,0
 zusätzlich,"additional, extra",DE→EN,0,0,466,0,0,0,0
 zusätzlich,"additional, extra",EN→DE,0,0,466,0,0,0,0
+zuvor,"before, previously",DE→EN,0,0,819,0,0,0,0
+zuvor,"before, previously",EN→DE,0,0,819,0,0,0,0
 zwischen,"between, among",DE→EN,0,0,541,0,0,0,0
 zwischen,"between, among",EN→DE,0,0,541,0,0,0,0
 äusserst,"extremely, exceedingly",DE→EN,0,0,725,0,0,0,0
@@ -1255,6 +1431,8 @@ zwischen,"between, among",EN→DE,0,0,541,0,0,0,0
 östlich,"eastern, easterly",EN→DE,0,0,546,0,0,0,0
 über,"over, above; about; more than",DE→EN,0,0,469,0,0,0,0
 über,"over, above; about; more than",EN→DE,0,0,469,0,0,0,0
+überbrücken,"to bridge (a wait), to span",DE→EN,0,0,795,0,0,0,0
+überbrücken,"to bridge (a wait), to span",EN→DE,0,0,795,0,0,0,0
 überlassen,"to leave (to someone), to hand over",DE→EN,0,0,299,0,0,0,0
 überlassen,"to leave (to someone), to hand over",EN→DE,0,0,299,0,0,0,0
 übernachten,"to stay overnight, to spend the night",DE→EN,0,0,484,0,0,0,0
