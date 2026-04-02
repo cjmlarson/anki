@@ -6,4 +6,5 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "anki>=25.9.2",
+    "zstandard>=0.25.0",
 ]
