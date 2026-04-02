@@ -88,6 +88,12 @@ def strip_html(s: str) -> str:
     return re.sub(r"<[^>]+>", "", s).strip()
 
 
+def extract_word(html_field: str) -> str:
+    """Extract the word from an HTML field, falling back to stripping all tags."""
+    match = WORD_DIV_RE.search(html_field)
+    return match.group(1) if match else strip_html(html_field)
+
+
 def get_or_create_model(col: Collection):
     model = col.models.by_name(MODEL_NAME)
     if model:
@@ -146,9 +152,7 @@ def sync_cards(col: Collection) -> None:
     existing_by_word: dict[str, int] = {}
     for nid in col.find_notes(f'"deck:{DECK_NAME}"'):
         note = col.get_note(nid)
-        match = WORD_DIV_RE.search(note["Deutsche"])
-        raw_word = match.group(1) if match else note["Deutsche"]
-        existing_by_word[raw_word] = nid
+        existing_by_word[extract_word(note["Deutsche"])] = nid
 
     vocab_words = set()
     added = 0
@@ -201,10 +205,8 @@ def export_reviews(col: Collection) -> None:
     rows = []
     for nid in col.find_notes(f'"deck:{DECK_NAME}"'):
         note = col.get_note(nid)
-        de_match = WORD_DIV_RE.search(note["Deutsche"])
-        de_word = de_match.group(1) if de_match else strip_html(note["Deutsche"])
-        en_match = WORD_DIV_RE.search(note["English"])
-        en_word = en_match.group(1) if en_match else strip_html(note["English"])
+        de_word = extract_word(note["Deutsche"])
+        en_word = extract_word(note["English"])
         for card in note.cards():
             direction = "DE→EN" if card.ord == 0 else "EN→DE"
             ease = round(card.factor / 1000, 2) if card.factor else 0
