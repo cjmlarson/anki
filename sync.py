@@ -68,18 +68,11 @@ def get_auth(col: Collection) -> SyncAuth:
     return auth
 
 
-def bold_word_in_example(word: str, example: str) -> str:
-    """Bold occurrences of the base word within the example sentence."""
-    base = re.sub(r'^(der|die|das)\s+', '', word).split(',')[0].strip()
-    pattern = re.compile(re.escape(base), re.IGNORECASE)
-    return pattern.sub(lambda m: f'<b>{m.group()}</b>', example)
-
-
 def build_field(word: str, example: str | None) -> str:
     """Build a field value: word + optional example."""
     html = f'<div class="word">{word}</div>'
     if example:
-        example = bold_word_in_example(word, example)
+        example = re.sub(r'\*(.+?)\*', r'<b>\1</b>', example)
         html += f'<div class="example">{example}</div>'
     return html
 
