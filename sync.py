@@ -15,6 +15,8 @@ DECK_NAME = "German Vocab"
 MODEL_NAME = "German Vocab"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+WORD_DIV_RE = re.compile(r'<div class="word">(.*?)</div>')
+
 MODEL_CSS = """\
 .card { font-family: arial; font-size: 20px; text-align: center; color: black; background-color: white; }
 .word { font-size: 1.2em; font-weight: bold; }
@@ -66,10 +68,18 @@ def get_auth(col: Collection) -> SyncAuth:
     return auth
 
 
+def bold_word_in_example(word: str, example: str) -> str:
+    """Bold occurrences of the base word within the example sentence."""
+    base = re.sub(r'^(der|die|das)\s+', '', word).split(',')[0].strip()
+    pattern = re.compile(re.escape(base), re.IGNORECASE)
+    return pattern.sub(lambda m: f'<b>{m.group()}</b>', example)
+
+
 def build_field(word: str, example: str | None) -> str:
     """Build a field value: word + optional example."""
     html = f'<div class="word">{word}</div>'
     if example:
+        example = bold_word_in_example(word, example)
         html += f'<div class="example">{example}</div>'
     return html
 
@@ -136,9 +146,11 @@ def sync_cards(col: Collection) -> None:
     existing_by_word: dict[str, int] = {}
     for nid in col.find_notes(f'"deck:{DECK_NAME}"'):
         note = col.get_note(nid)
-        existing_by_word[note["Deutsche"]] = nid
+        match = WORD_DIV_RE.search(note["Deutsche"])
+        raw_word = match.group(1) if match else note["Deutsche"]
+        existing_by_word[raw_word] = nid
 
-    vocab_de_fields = set()
+    vocab_words = set()
     added = 0
     updated = 0
     for card in cards:
@@ -147,11 +159,15 @@ def sync_cards(col: Collection) -> None:
         de_field = build_field(card["deutsche"], de_ex)
         en_field = build_field(card["english"], en_ex)
         tags = card["tags"].split() if card["tags"] else []
-        vocab_de_fields.add(de_field)
+        raw_word = card["deutsche"]
+        vocab_words.add(raw_word)
 
-        if de_field in existing_by_word:
-            note = col.get_note(existing_by_word[de_field])
+        if raw_word in existing_by_word:
+            note = col.get_note(existing_by_word[raw_word])
             changed = False
+            if note["Deutsche"] != de_field:
+                note["Deutsche"] = de_field
+                changed = True
             if note["English"] != en_field:
                 note["English"] = en_field
                 changed = True
@@ -170,8 +186,8 @@ def sync_cards(col: Collection) -> None:
             added += 1
 
     nids_to_remove = [
-        nid for de, nid in existing_by_word.items()
-        if de not in vocab_de_fields
+        nid for word, nid in existing_by_word.items()
+        if word not in vocab_words
     ]
     if nids_to_remove:
         col.remove_notes(nids_to_remove)
@@ -260,9 +276,12 @@ def main():
     col = Collection(COLLECTION_PATH)
     try:
         auth = get_auth(col)
+        print("--- Pull from AnkiWeb ---")
+        do_sync(col, auth)
         sync_cards(col)
         export_reviews(col)
         export_deck_json()
+        print("--- Push to AnkiWeb ---")
         do_sync(col, auth)
     finally:
         try:
